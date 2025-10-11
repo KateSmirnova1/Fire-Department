@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="061926b9-881a-4b4d-9064-f821884d6557">
+  <name>ПожарнаяЧасть13</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С: Управление пожарной частью </value>
+  </synonym>
+  <comment>Конфигурация для автоматизации процессов в пожарной части № 13. </comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ed6735dc-06af-413e-89fd-7269e0026e34"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="40b52409-f9cd-41fc-91f4-21bd030fcc2f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1f924790-a45e-4625-8157-ad604a751e84"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4b56aef1-6d8e-4724-a249-539be6cd35e4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="094263fd-4007-490b-adce-f3856e193745"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="04b8a179-b8ca-42e9-b683-d6d21787b369"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="26ab9c26-cd1e-47c9-afcd-0dfe6f64238d"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Смирнова Екатерина Валерьевна</vendor>
+  <version>0.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Автоматизация процессов в пожарной части.</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Решает задачи: 1)	Учет личного состава, графики работы, отпусков и отгулов;
+2)	Учет техники, оборудования, СИЗ, ТО;
+3)	Учет боевой подготовки и инструктажей;
+4)	Учет вызовов на пожары, аварии и др. ЧС;
+5)	Созадние документов;
+6)    Создание отчетов.</value>
+  </detailedInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="63bdba1e-406a-49a1-a582-fa44bdee18ab">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Сотрудники</catalogs>
+</mdclass:Configuration>
