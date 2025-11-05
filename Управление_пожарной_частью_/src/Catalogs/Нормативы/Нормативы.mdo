@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcdcfc7-41aa-415d-a00c-6da0a93a950d">
+  <producedTypes>
+    <objectType typeId="efc2426d-652c-4df0-ba7e-da7a07d5ffb1" valueTypeId="0169f609-0648-43a1-9a8b-9e17aea75275"/>
+    <refType typeId="1a05ffb7-ea31-43e2-a3bd-c7c36954b753" valueTypeId="c7975844-fd51-441d-9320-4645e9514c39"/>
+    <selectionType typeId="e228c073-47fa-43e6-8bd3-994b518ae032" valueTypeId="2460cb8e-2cac-4359-83c0-f7f3da830e21"/>
+    <listType typeId="15187538-ba0b-427f-91d7-086ea2f633ca" valueTypeId="06acd0fa-9f78-4f46-861f-a24b4460ffd7"/>
+    <managerType typeId="da2d28ea-457d-46d4-ad33-aafe698411ce" valueTypeId="320eff23-9f1c-425c-931c-b5277e5f4364"/>
+  </producedTypes>
+  <name>Нормативы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нормативы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Нормативы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

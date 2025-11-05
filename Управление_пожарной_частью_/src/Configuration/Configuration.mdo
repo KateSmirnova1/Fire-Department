@@ -57,5 +57,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Караулы</catalogs>
+  <catalogs>Catalog.Нормативы</catalogs>
+  <catalogs>Catalog.ВозрастныеГруппы</catalogs>
 </mdclass:Configuration>
