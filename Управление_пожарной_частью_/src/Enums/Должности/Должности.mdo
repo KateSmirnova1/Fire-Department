@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32b8f93c-26fa-4bdf-a8d3-4c6f66b9fad1">
+  <producedTypes>
+    <refType typeId="0b8219b8-0d93-41ff-a1e8-6376f91ac51c" valueTypeId="88cb11fc-c2ac-480e-b3d3-804ba9f1c233"/>
+    <listType typeId="191e6fa6-5892-40dd-8d5f-8ac5d5cdc44f" valueTypeId="759423c2-da84-4dd0-918e-a7234b2f58a1"/>
+    <managerType typeId="190459e0-27a5-4166-beac-4a83c774ec58" valueTypeId="e2b3f9fc-5fb3-4fa4-b6e6-ad4e506e70d8"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed3239db-0bbc-420a-9cb9-30f4fe2d3973">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c890c680-8b2f-4463-a53e-4e40023d4891">
+    <name>Пожарный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пожарный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f843ac72-d9cf-4fae-b998-bd318dbca9a9">
+    <name>СтаршийПожарный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старший пожарный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd25e31b-bf54-4960-bf60-d9de8842c84d">
+    <name>Диспетчер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диспетчер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03de884a-7c69-4eef-8daf-134cd2dc9f2f">
+    <name>НачальникКараула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник караула</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f8c75d8-a7fd-474c-bd8a-53bb20ffc713">
+    <name>ПомощникНачальникаКараула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник начальника караула</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b074efe3-2a53-4399-9039-82b8dfdb5627">
+    <name>КомандирОтделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командир отделения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

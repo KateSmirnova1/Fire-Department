@@ -31,13 +31,13 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="d218aa9d-3803-4e73-a8a6-c81100d18c9a">
-    <name>Начальник</name>
+    <name>Начальник_караула</name>
     <synonym>
       <key>ru</key>
-      <value>Начальник</value>
+      <value>Начальник караула</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Физические_лица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -77,7 +77,21 @@
         <value>Сотрудник</value>
       </synonym>
       <type>
-        <types>CatalogRef.Сотрудники</types>
+        <types>CatalogRef.Физические_лица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d5ea0e8f-e135-4c4d-92df-63de0a2ff7fe">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Должности</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

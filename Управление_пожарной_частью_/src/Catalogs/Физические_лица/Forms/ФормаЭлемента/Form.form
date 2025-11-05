@@ -116,6 +116,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Фамилия</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ФамилияПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ФамилияРасширеннаяПодсказка</name>
         <id>17</id>
@@ -165,6 +169,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Имя</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ИмяПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ИмяРасширеннаяПодсказка</name>
         <id>21</id>
@@ -214,6 +222,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Отчество</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтчествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтчествоРасширеннаяПодсказка</name>
         <id>25</id>
@@ -292,10 +304,6 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:CheckBoxFieldExtInfo">
         <checkBoxType>Tumbler</checkBoxType>
-        <editFormat>
-          <key>ru</key>
-          <value>БЛ=Женский; БИ=Мужской</value>
-        </editFormat>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -341,6 +349,54 @@
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Должность</name>
+      <id>39</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Должность</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДолжностьРасширеннаяПодсказка</name>
+        <id>41</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДолжностьКонтекстноеМеню</name>
+        <id>40</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>ДолжностьПанельДействийВыделенныхСтрок</name>
+        <id>42</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -495,7 +551,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Сотрудники</types>
+      <types>CatalogObject.Физические_лица</types>
     </valueType>
     <view>
       <common>true</common>
