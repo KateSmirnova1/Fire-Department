@@ -46,8 +46,6 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
-  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="63bdba1e-406a-49a1-a582-fa44bdee18ab">
     <name>Русский</name>
@@ -62,6 +60,7 @@
   <catalogs>Catalog.Караулы</catalogs>
   <catalogs>Catalog.Нормативы</catalogs>
   <catalogs>Catalog.ВозрастныеГруппы</catalogs>
+  <documents>Document.УстановкаНормативов</documents>
   <enums>Enum.ТипФизлиц</enums>
   <enums>Enum.Должности</enums>
 </mdclass:Configuration>

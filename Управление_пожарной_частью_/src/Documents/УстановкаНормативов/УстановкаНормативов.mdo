@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d78426e1-d59a-45d6-b632-f043d1f87eef">
+  <producedTypes>
+    <objectType typeId="15104a10-f0f1-4f45-b755-58240c0e74a7" valueTypeId="a19dfd91-9ec8-4132-b1cb-a9ddc6c21f24"/>
+    <refType typeId="08688fab-98e5-4def-9c34-0ed73ffbfda8" valueTypeId="f3789ac9-6439-4d8e-80e4-f2095661c836"/>
+    <selectionType typeId="f569e4f2-2077-4de3-b405-6b8ddea371e3" valueTypeId="4661481b-98ec-41d9-b0b2-6bba1907cdd9"/>
+    <listType typeId="1128bce8-08c7-468d-bce0-7c7619518db3" valueTypeId="5cfe7d3c-f5f2-4004-a5a5-646d4b5153ac"/>
+    <managerType typeId="013b18ff-601c-4989-b233-c7a95b6bae1a" valueTypeId="f9d1bd89-963b-465e-ba38-1d3ce9431c3b"/>
+  </producedTypes>
+  <name>УстановкаНормативов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка нормативов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаНормативов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаНормативов.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8b1a2a5b-999b-443c-81b2-c833747231ad">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f0d6abb-33b8-47b6-9bab-fb06f96b9f34">
+    <name>Начальник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Физические_лица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2cc8b007-2255-4edc-a8a2-7455f3907c06">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2df39516-e3bc-430e-96d6-d331841a5188">
+    <producedTypes>
+      <objectType typeId="cfa46249-beb4-4f7c-8090-ae79bb052671" valueTypeId="3a654388-5bad-4ddb-819e-42665a9a71ba"/>
+      <rowType typeId="5d184418-3e3c-458a-b8eb-5b4cde2ddd0e" valueTypeId="b157cc62-ddaf-4702-8734-19c8c8c9dbe6"/>
+    </producedTypes>
+    <name>ФИЗОНормативы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИЗО нормативы</value>
+    </synonym>
+    <attributes uuid="1cd09d29-2562-48b7-a869-33885e8e4840">
+      <name>Норматив</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норматив</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Нормативы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f29230ef-a6de-48e5-abd8-25ed7ec6fceb">
+      <name>ВозрастнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возрастная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВозрастныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1734bedb-65c1-48ff-b17e-b577fb165d96">
+      <name>МинимальноеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальное значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=4; ЧДЦ=2</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=2</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b01769c-71c5-45b4-acd8-4c52328e83d7">
+      <name>МаксимальноеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальное значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=2</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=2</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="d0bc28f9-a893-4d60-a11f-6a4d0e67886d">
+    <producedTypes>
+      <objectType typeId="58379af7-1e23-4121-bd8e-edaf67dd20dc" valueTypeId="6242b87d-fd5f-4310-a8a1-470291eded0e"/>
+      <rowType typeId="714facb5-ac25-4fa3-85ac-3a9de396f0ff" valueTypeId="11bc2f85-09a5-4e9d-bd60-971a128edf77"/>
+    </producedTypes>
+    <name>СпецНормативы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спец нормативы</value>
+    </synonym>
+    <attributes uuid="1fb2ecf4-5c90-4129-99c1-122312219bc5">
+      <name>Норматив</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норматив</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Нормативы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0cbea919-1748-45a2-ac4a-7af58741c27a">
+      <name>ВозрастнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возрастная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВозрастныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4c1cd8b-b2b8-4ca9-9136-111942083888">
+      <name>МинимальноеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальное значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=4; ЧДЦ=2</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=2</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a72d177b-b74a-42fb-9e79-ccf61a16d346">
+      <name>МаксимальноеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальное значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=2</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=2</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

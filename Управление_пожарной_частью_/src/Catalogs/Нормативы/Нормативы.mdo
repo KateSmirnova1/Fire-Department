@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcdcfc7-41aa-415d-a00c-6da0a93a950d">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcdcfc7-41aa-415d-a00c-6da0a93a950d">
   <producedTypes>
     <objectType typeId="efc2426d-652c-4df0-ba7e-da7a07d5ffb1" valueTypeId="0169f609-0648-43a1-9a8b-9e17aea75275"/>
     <refType typeId="1a05ffb7-ea31-43e2-a3bd-c7c36954b753" valueTypeId="c7975844-fd51-441d-9320-4645e9514c39"/>
@@ -23,7 +23,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -31,22 +31,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="5e760b09-69bd-4a47-a232-a1e01868c6a8">
-    <name>Название</name>
-    <synonym>
-      <key>ru</key>
-      <value>Название</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>300</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>
