@@ -551,7 +551,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Физические_лица</types>
+      <types>CatalogObject.ФизическиеЛица</types>
     </valueType>
     <view>
       <common>true</common>

@@ -56,11 +56,15 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Физические_лица</catalogs>
-  <catalogs>Catalog.Караулы</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ГруппаСотрудников</catalogs>
   <catalogs>Catalog.Нормативы</catalogs>
   <catalogs>Catalog.ВозрастныеГруппы</catalogs>
   <documents>Document.УстановкаНормативов</documents>
+  <documents>Document.ПроверкаНормативов</documents>
   <enums>Enum.ТипФизлиц</enums>
   <enums>Enum.Должности</enums>
+  <enums>Enum.Оценка</enums>
+  <informationRegisters>InformationRegister.КонтрольныеЗначенияУпражнений</informationRegisters>
+  <informationRegisters>InformationRegister.РезультатВыполненияУпражнений</informationRegisters>
 </mdclass:Configuration>

@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.УстановкаНормативов.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.КонтрольныеЗначенияУпражнений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="8b1a2a5b-999b-443c-81b2-c833747231ad">
@@ -48,7 +49,7 @@
       <value>Начальник</value>
     </synonym>
     <type>
-      <types>CatalogRef.Физические_лица</types>
+      <types>CatalogRef.ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -70,10 +71,10 @@
       <objectType typeId="cfa46249-beb4-4f7c-8090-ae79bb052671" valueTypeId="3a654388-5bad-4ddb-819e-42665a9a71ba"/>
       <rowType typeId="5d184418-3e3c-458a-b8eb-5b4cde2ddd0e" valueTypeId="b157cc62-ddaf-4702-8734-19c8c8c9dbe6"/>
     </producedTypes>
-    <name>ФИЗОНормативы</name>
+    <name>Нормативы</name>
     <synonym>
       <key>ru</key>
-      <value>ФИЗО нормативы</value>
+      <value>Нормативы</value>
     </synonym>
     <attributes uuid="1cd09d29-2562-48b7-a869-33885e8e4840">
       <name>Норматив</name>
@@ -131,100 +132,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="5b01769c-71c5-45b4-acd8-4c52328e83d7">
-      <name>МаксимальноеЗначение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Максимальное значение</value>
-      </synonym>
-      <type>
-        <types>Boolean</types>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>4</precision>
-          <scale>2</scale>
-        </numberQualifiers>
-      </type>
-      <format>
-        <key>ru</key>
-        <value>ЧДЦ=2</value>
-      </format>
-      <editFormat>
-        <key>ru</key>
-        <value>ЧДЦ=2</value>
-      </editFormat>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
-  <tabularSections uuid="d0bc28f9-a893-4d60-a11f-6a4d0e67886d">
-    <producedTypes>
-      <objectType typeId="58379af7-1e23-4121-bd8e-edaf67dd20dc" valueTypeId="6242b87d-fd5f-4310-a8a1-470291eded0e"/>
-      <rowType typeId="714facb5-ac25-4fa3-85ac-3a9de396f0ff" valueTypeId="11bc2f85-09a5-4e9d-bd60-971a128edf77"/>
-    </producedTypes>
-    <name>СпецНормативы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Спец нормативы</value>
-    </synonym>
-    <attributes uuid="1fb2ecf4-5c90-4129-99c1-122312219bc5">
-      <name>Норматив</name>
-      <synonym>
-        <key>ru</key>
-        <value>Норматив</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Нормативы</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="0cbea919-1748-45a2-ac4a-7af58741c27a">
-      <name>ВозрастнаяГруппа</name>
-      <synonym>
-        <key>ru</key>
-        <value>Возрастная группа</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВозрастныеГруппы</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="c4c1cd8b-b2b8-4ca9-9136-111942083888">
-      <name>МинимальноеЗначение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Минимальное значение</value>
-      </synonym>
-      <type>
-        <types>Boolean</types>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>4</precision>
-          <scale>2</scale>
-        </numberQualifiers>
-      </type>
-      <format>
-        <key>ru</key>
-        <value>ЧЦ=4; ЧДЦ=2</value>
-      </format>
-      <editFormat>
-        <key>ru</key>
-        <value>ЧДЦ=2</value>
-      </editFormat>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="a72d177b-b74a-42fb-9e79-ccf61a16d346">
       <name>МаксимальноеЗначение</name>
       <synonym>
         <key>ru</key>
