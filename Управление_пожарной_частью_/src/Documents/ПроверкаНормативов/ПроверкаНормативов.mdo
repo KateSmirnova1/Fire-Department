@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8663c2c3-3d51-4f53-89a9-a98e513e2aa3">
+  <producedTypes>
+    <objectType typeId="257f6ad9-c3c8-44fe-9a2d-94256483077e" valueTypeId="06c775c9-e9f2-4cfe-953a-8f036b6ad526"/>
+    <refType typeId="dfcaf73d-2327-4ba7-9ddf-a0ee533cf91b" valueTypeId="aafba317-0519-44ab-b828-3a04d865f508"/>
+    <selectionType typeId="983064d1-d831-44f1-bd1c-812358ea3bde" valueTypeId="5d8f05ad-f880-452d-88a5-08bb3c4fad51"/>
+    <listType typeId="afb7e10a-dab8-4098-a560-81bd62dcc81d" valueTypeId="08a7d1d5-6b8a-4b5a-be7c-5a0b1ce695b4"/>
+    <managerType typeId="01e03da8-76ae-4211-bc26-8341108927bb" valueTypeId="4c9468ba-61cf-43f6-9776-8a3cf632d5da"/>
+  </producedTypes>
+  <name>ПроверкаНормативов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка нормативов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПроверкаНормативов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.РезультатВыполненияУпражнений</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1be6d4d9-f58a-4423-aef5-f57a224f9327">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad196ec9-dd7b-4005-b2c4-2b369975c201">
+    <name>Начальник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b4925c92-1385-4d52-a0c0-292f1cf87ec5">
+    <producedTypes>
+      <objectType typeId="6ba946dc-f999-4afd-ae96-5c853d3e3a1c" valueTypeId="d9c81d1d-b435-4640-90dc-fbaf25e965b7"/>
+      <rowType typeId="4fc7e989-7628-43e8-b71a-5bda849e07bb" valueTypeId="09b958d4-01e6-4298-8787-4349db8a3006"/>
+    </producedTypes>
+    <name>Нормативы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативы</value>
+    </synonym>
+    <attributes uuid="2d55f607-9216-4fc0-ad65-e7620a051bbe">
+      <name>ФизЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физ лицо</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e2702ff5-3b43-4e16-bb06-06dcb711e5c3">
+      <name>Норматив</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норматив</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Нормативы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e26f71dd-a7cd-45d5-86f1-e4f025ba42ff">
+      <name>ВозрастнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возрастная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВозрастныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42f24797-b89d-4a0e-9e05-7f32b10d9eab">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

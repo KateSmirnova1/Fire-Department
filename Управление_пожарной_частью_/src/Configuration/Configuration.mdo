@@ -46,8 +46,6 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
-  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="63bdba1e-406a-49a1-a582-fa44bdee18ab">
     <name>Русский</name>
@@ -57,5 +55,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ГруппаСотрудников</catalogs>
+  <catalogs>Catalog.Нормативы</catalogs>
+  <catalogs>Catalog.ВозрастныеГруппы</catalogs>
+  <documents>Document.УстановкаНормативов</documents>
+  <documents>Document.ПроверкаНормативов</documents>
+  <enums>Enum.ТипФизлиц</enums>
+  <enums>Enum.Должности</enums>
+  <enums>Enum.Оценка</enums>
+  <informationRegisters>InformationRegister.КонтрольныеЗначенияУпражнений</informationRegisters>
+  <informationRegisters>InformationRegister.РезультатВыполненияУпражнений</informationRegisters>
 </mdclass:Configuration>

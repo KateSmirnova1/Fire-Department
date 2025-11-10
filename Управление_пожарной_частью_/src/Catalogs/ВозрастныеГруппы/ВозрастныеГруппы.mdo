@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fcc2963-c215-43b4-a9df-c9495a75606d">
+  <producedTypes>
+    <objectType typeId="12e35fbb-8e4a-4aac-a9c3-e51d6c5d399e" valueTypeId="535f616f-b99e-456a-bbb8-82c791a8642e"/>
+    <refType typeId="ce729c54-a6fd-471e-ae67-265a1b596219" valueTypeId="d7472ecb-3088-44c6-a1c0-8ef7f1101504"/>
+    <selectionType typeId="2418f9e8-39e3-458e-ac9c-20c4a82da5b2" valueTypeId="d8eed6b4-3b0f-4c27-b4c4-6e2c64a5ae0d"/>
+    <listType typeId="0a0e6753-de12-44d1-aa6f-55eb6f979e30" valueTypeId="a7bb6d9b-a16e-4476-ac7d-926079fa56a0"/>
+    <managerType typeId="23421baa-6fce-4b4e-a216-53dd41ea7f26" valueTypeId="1dbe4269-6f26-452d-aeba-03e399a11ca0"/>
+  </producedTypes>
+  <name>ВозрастныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастные группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВозрастныеГруппы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВозрастныеГруппы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5200fa9c-4951-4fe8-8cfe-c31988deac9c">
+    <name>МинимальныйВозраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="653fea7a-d7dd-43b0-a4a8-6bc37262f39f">
+    <name>МаксимальныйВозраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
