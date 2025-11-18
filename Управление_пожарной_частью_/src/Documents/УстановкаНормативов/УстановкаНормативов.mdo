@@ -23,7 +23,6 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.УстановкаНормативов.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>InformationRegister.КонтрольныеЗначенияУпражнений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -57,15 +56,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="2cc8b007-2255-4edc-a8a2-7455f3907c06">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <tabularSections uuid="2df39516-e3bc-430e-96d6-d331841a5188">
     <producedTypes>
       <objectType typeId="cfa46249-beb4-4f7c-8090-ae79bb052671" valueTypeId="3a654388-5bad-4ddb-819e-42665a9a71ba"/>
@@ -98,6 +88,20 @@
       </synonym>
       <type>
         <types>CatalogRef.ВозрастныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="16d96056-c9d4-445f-b3ff-0d0dcf642421">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Оценка</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
