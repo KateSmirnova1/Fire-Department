@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="759abbdc-40b5-45a7-a381-9b2c5d3eb8cf">
+  <name>УправлениеНормативами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление нормативами</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
