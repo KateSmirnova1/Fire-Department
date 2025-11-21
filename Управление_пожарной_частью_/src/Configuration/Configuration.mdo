@@ -55,6 +55,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.ОрганизацииЧтение</roles>
+  <roles>Role.ОрганизацииЧтениеИЗапись</roles>
+  <roles>Role.ФизЛицаЧтение</roles>
+  <roles>Role.ФизЛицаЧтениеИЗапись</roles>
+  <roles>Role.ГруппаСотрудниковЧтение</roles>
+  <roles>Role.ГруппаСотрудниковЧтениеИЗапись</roles>
+  <roles>Role.НормативыЧтение</roles>
+  <roles>Role.НормативыЧтениеИЗапись</roles>
+  <roles>Role.ВозрастныеГруппыЧтение</roles>
+  <roles>Role.ВозрастныеГруппыЧтениеИЗапись</roles>
   <commonModules>CommonModule.УправлениеНормативами</commonModules>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67829d0-ee50-47fb-95e4-c88b66b0756c">
+  <name>ВозрастныеГруппыЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастные группы чтение</value>
+  </synonym>
+</mdclass:Role>
