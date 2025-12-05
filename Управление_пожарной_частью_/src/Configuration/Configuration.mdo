@@ -65,6 +65,9 @@
   <roles>Role.НормативыЧтениеИЗапись</roles>
   <roles>Role.ВозрастныеГруппыЧтение</roles>
   <roles>Role.ВозрастныеГруппыЧтениеИЗапись</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <commonModules>CommonModule.УправлениеНормативами</commonModules>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
