@@ -24,7 +24,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПланСдачиНормативов.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.КонтрольныеЗначенияУпражнений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="8b1a2a5b-999b-443c-81b2-c833747231ad">

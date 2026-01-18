@@ -9,10 +9,10 @@
     <recordType typeId="436f7b3f-7744-441b-9970-9d5da337b9c2" valueTypeId="6dc65221-e0ab-46e9-8cdd-5c6b208dd1e4"/>
     <recordManagerType typeId="520cb1c8-bcdb-4f4c-8c32-0ff0ed5b2cba" valueTypeId="c2c195af-c521-4c2e-a76e-ebe0196410cf"/>
   </producedTypes>
-  <name>РезультатВыполненияУпражнений</name>
+  <name>РезультатВыполненияНормативов</name>
   <synonym>
     <key>ru</key>
-    <value>Результат выполнения упражнений</value>
+    <value>Результат выполнения нормативов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -46,7 +46,10 @@
       <value>Оценка</value>
     </synonym>
     <type>
-      <types>EnumRef.Оценка</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -54,61 +57,25 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="f4d96e0e-a6d5-44ce-923f-5a6c84e777e8">
-    <name>ВозрастнаяГруппа</name>
+  <dimensions uuid="c9036c05-d44e-42f1-bad0-a038a539fcd4">
+    <name>ДатаПроведения</name>
     <synonym>
       <key>ru</key>
-      <value>Возрастная группа</value>
+      <value>Дата проведения</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВозрастныеГруппы</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="c2024766-7c23-4f94-b956-e25aabd71dcb">
-    <name>МинимальноеЗначение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Минимальное значение</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="eae6c3c1-cfd1-4909-916e-42093fb4adca">
-    <name>МаксимальноеЗначение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Максимальное значение</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="b2643469-5a18-4149-8dd9-b488aca4026e">
     <name>Организация</name>
     <synonym>
@@ -125,14 +92,46 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="a1e62cf3-494f-4607-82d8-d49ae0a5e32e">
-    <name>ФизЛицо</name>
+  <dimensions uuid="e30214d4-6a8a-441e-ae4b-94e564c75579">
+    <name>Караул</name>
     <synonym>
       <key>ru</key>
-      <value>Физ лицо</value>
+      <value>Караул</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.ГруппаСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="568a8fd1-eacb-41a2-9c83-13424a8b7716">
+    <name>ТипТренировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тренировки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипТренировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ce9488b3-cc0b-4e2b-bf45-386839937fc5">
+    <name>МестоПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место проведения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестоПроведенияТренировки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -157,17 +156,46 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="c9036c05-d44e-42f1-bad0-a038a539fcd4">
-    <name>ДатаПроведения</name>
+  <dimensions uuid="5acc2b8a-1e2d-4353-83ba-2d635d308c80">
+    <name>НачальникКараула</name>
     <synonym>
       <key>ru</key>
-      <value>Дата проведения</value>
+      <value>Начальник караула</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="08af3670-856b-4e1c-a207-72c1058477d0">
+    <name>Инструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструктор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3fb9de28-7c9b-41ba-b08f-1993618d52bb">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

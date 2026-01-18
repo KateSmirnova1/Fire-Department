@@ -25,7 +25,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.СдачаНормативов.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.РезультатВыполненияУпражнений</registerRecords>
+  <registerRecords>InformationRegister.РезультатВыполненияНормативов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1be6d4d9-f58a-4423-aef5-f57a224f9327">

@@ -86,6 +86,5 @@
   <enums>Enum.ТипФизлиц</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.Оценка</enums>
-  <informationRegisters>InformationRegister.КонтрольныеЗначенияУпражнений</informationRegisters>
-  <informationRegisters>InformationRegister.РезультатВыполненияУпражнений</informationRegisters>
+  <informationRegisters>InformationRegister.РезультатВыполненияНормативов</informationRegisters>
 </mdclass:Configuration>
