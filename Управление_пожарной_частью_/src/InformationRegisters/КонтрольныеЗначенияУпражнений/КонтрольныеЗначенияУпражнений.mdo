@@ -82,7 +82,7 @@
       <value>Норматив</value>
     </synonym>
     <type>
-      <types>CatalogRef.Нормативы</types>
+      <types>CatalogRef.Норматив</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

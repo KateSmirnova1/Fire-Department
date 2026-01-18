@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4f620c0-d7db-416e-aa66-408f9898db9e">
+  <producedTypes>
+    <objectType typeId="f8d1f01f-df24-42da-9b31-7763ed06d76b" valueTypeId="fe810091-4387-41b3-9541-070e76507a27"/>
+    <refType typeId="ce3cdc0d-2e49-45be-8ab7-a5de96e64657" valueTypeId="b5ae38b1-1002-444b-b21f-7edf625430ee"/>
+    <selectionType typeId="4f5cc16a-a903-491a-87c4-729063a33bba" valueTypeId="089063bd-fd7d-466f-b789-0c207c55fd69"/>
+    <listType typeId="c59697db-bff4-4f9b-82a4-f08a0f1a5959" valueTypeId="23318be6-6b28-40f8-91a2-541f79884baa"/>
+    <managerType typeId="b2ea86f7-4b01-45b6-9c0c-4a3fa698883e" valueTypeId="0b14d887-01c0-4711-b2de-fe389b966727"/>
+  </producedTypes>
+  <name>ТипТренировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип тренировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипТренировки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипТренировки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="105aa3d9-0b28-4e53-96da-80a5663e523d">
+    <producedTypes>
+      <objectType typeId="0f2d9f9a-7ccc-46d2-89bf-7d3f22ded99e" valueTypeId="bf8ed632-5331-4619-b5a4-f1828f179210"/>
+      <rowType typeId="79b2435c-4f33-4805-968b-4c6f5a23f5ab" valueTypeId="7e08537d-5a7b-4a67-97a1-7b658cd35161"/>
+    </producedTypes>
+    <name>Нормативы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативы</value>
+    </synonym>
+    <attributes uuid="458e6690-46b9-472a-b1f9-8d3d6d562f55">
+      <name>Норматив</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норматив</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Норматив</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

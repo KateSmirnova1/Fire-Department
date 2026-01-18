@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4d7744-e516-47fe-bfc9-8ec02d3c0f88">
+  <name>Боевая_подготовка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Боевая подготовка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Боевая_подготовка_</picture>
+  </picture>
+  <content>Catalog.МестоПроведенияТренировки</content>
+  <content>Catalog.ТипТренировки</content>
+  <content>Catalog.Норматив</content>
+  <content>Document.ПланСдачиНормативов</content>
+  <content>Document.СдачаНормативов</content>
+</mdclass:Subsystem>

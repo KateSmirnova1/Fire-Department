@@ -7,14 +7,15 @@
     <listType typeId="afb7e10a-dab8-4098-a560-81bd62dcc81d" valueTypeId="08a7d1d5-6b8a-4b5a-be7c-5a0b1ce695b4"/>
     <managerType typeId="01e03da8-76ae-4211-bc26-8341108927bb" valueTypeId="4c9468ba-61cf-43f6-9776-8a3cf632d5da"/>
   </producedTypes>
-  <name>ПроверкаНормативов</name>
+  <name>СдачаНормативов</name>
   <synonym>
     <key>ru</key>
-    <value>Проверка нормативов</value>
+    <value>Сдача нормативов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПроверкаНормативов.StandardAttribute.Number</inputByString>
+  <inputByString>Document.СдачаНормативов.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПланСдачиНормативов</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -23,6 +24,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СдачаНормативов.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>InformationRegister.РезультатВыполненияУпражнений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -41,11 +43,56 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ad196ec9-dd7b-4005-b2c4-2b369975c201">
-    <name>Начальник</name>
+  <attributes uuid="40097a18-92d8-4f35-b7d8-9df547749910">
+    <name>Караул</name>
     <synonym>
       <key>ru</key>
-      <value>Начальник</value>
+      <value>Караул</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппаСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0cfb45b-9464-4dd3-bb4f-429405b1b059">
+    <name>ТипТренировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тренировки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипТренировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa5c5c9a-bc5c-48e5-a120-267ecc639a64">
+    <name>МестоПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место проведения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестоПроведенияТренировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad196ec9-dd7b-4005-b2c4-2b369975c201">
+    <name>НачальникКараула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник караула</value>
     </synonym>
     <type>
       <types>CatalogRef.ФизическиеЛица</types>
@@ -56,6 +103,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="65118b93-52ce-451d-918f-1fb6c082b9ae">
+    <name>Инструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструктор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fdeb7348-d508-4812-ad44-f997a7b01973">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="b4925c92-1385-4d52-a0c0-292f1cf87ec5">
     <producedTypes>
       <objectType typeId="6ba946dc-f999-4afd-ae96-5c853d3e3a1c" valueTypeId="d9c81d1d-b435-4640-90dc-fbaf25e965b7"/>
@@ -67,10 +138,10 @@
       <value>Нормативы</value>
     </synonym>
     <attributes uuid="2d55f607-9216-4fc0-ad65-e7620a051bbe">
-      <name>ФизЛицо</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
-        <value>Физ лицо</value>
+        <value>Сотрудник</value>
       </synonym>
       <type>
         <types>CatalogRef.ФизическиеЛица</types>
@@ -87,7 +158,7 @@
         <value>Норматив</value>
       </synonym>
       <type>
-        <types>CatalogRef.Нормативы</types>
+        <types>CatalogRef.Норматив</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -101,12 +172,29 @@
         <value>Результат</value>
       </synonym>
       <type>
-        <types>Boolean</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>4</precision>
           <scale>2</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7fab033d-9a5b-4f73-a47c-a0742e5da62e">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

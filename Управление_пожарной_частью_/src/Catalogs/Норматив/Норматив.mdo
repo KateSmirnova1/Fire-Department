@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcdcfc7-41aa-415d-a00c-6da0a93a950d">
+  <producedTypes>
+    <objectType typeId="efc2426d-652c-4df0-ba7e-da7a07d5ffb1" valueTypeId="0169f609-0648-43a1-9a8b-9e17aea75275"/>
+    <refType typeId="1a05ffb7-ea31-43e2-a3bd-c7c36954b753" valueTypeId="c7975844-fd51-441d-9320-4645e9514c39"/>
+    <selectionType typeId="e228c073-47fa-43e6-8bd3-994b518ae032" valueTypeId="2460cb8e-2cac-4359-83c0-f7f3da830e21"/>
+    <listType typeId="15187538-ba0b-427f-91d7-086ea2f633ca" valueTypeId="06acd0fa-9f78-4f46-861f-a24b4460ffd7"/>
+    <managerType typeId="da2d28ea-457d-46d4-ad33-aafe698411ce" valueTypeId="320eff23-9f1c-425c-931c-b5277e5f4364"/>
+  </producedTypes>
+  <name>Норматив</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норматив</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Норматив.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Норматив.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="8d731072-bf7a-4d00-9f70-29ca3e0d192a">
+    <producedTypes>
+      <objectType typeId="b74d9a79-f441-4c90-909e-103f8037bf12" valueTypeId="84a830fd-afda-4ecf-aa91-81cda37f9173"/>
+      <rowType typeId="022ad4c7-d7bc-47f8-86b5-de33b9694f12" valueTypeId="119e8e16-d3b4-4423-b1d7-fa2bb1c260e9"/>
+    </producedTypes>
+    <name>Значения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения</value>
+    </synonym>
+    <attributes uuid="671642c5-c7f1-4b65-b2af-d2c633071fda">
+      <name>ВозрастнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возрастная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВозрастныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="56056b6b-0cde-4376-9d57-01b496f33a07">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Оценка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="22378926-19ae-421f-916a-3a2c54ba805b">
+      <name>МинимальноеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальное значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="421fc9a8-4ac2-4b21-bb1c-1071ea64bb93">
+      <name>МаксимальноеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальное значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

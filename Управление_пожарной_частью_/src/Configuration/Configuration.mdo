@@ -28,6 +28,8 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <mainSectionPicture/>
+  <defaultStyle>Style.ПЧ_13</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -55,6 +57,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Боевая_подготовка</subsystems>
+  <subsystems>Subsystem.ЛичныйСостав</subsystems>
+  <styles>Style.ПЧ_13</styles>
+  <commonPictures>CommonPicture.Боевая_подготовка</commonPictures>
+  <commonPictures>CommonPicture.Боевая_подготовка_</commonPictures>
+  <commonPictures>CommonPicture.ЛичныйСостав</commonPictures>
   <roles>Role.ОрганизацииЧтение</roles>
   <roles>Role.ОрганизацииЧтениеИЗапись</roles>
   <roles>Role.ФизЛицаЧтение</roles>
@@ -69,10 +77,12 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ГруппаСотрудников</catalogs>
-  <catalogs>Catalog.Нормативы</catalogs>
+  <catalogs>Catalog.Норматив</catalogs>
   <catalogs>Catalog.ВозрастныеГруппы</catalogs>
-  <documents>Document.УстановкаНормативов</documents>
-  <documents>Document.ПроверкаНормативов</documents>
+  <catalogs>Catalog.ТипТренировки</catalogs>
+  <catalogs>Catalog.МестоПроведенияТренировки</catalogs>
+  <documents>Document.ПланСдачиНормативов</documents>
+  <documents>Document.СдачаНормативов</documents>
   <enums>Enum.ТипФизлиц</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.Оценка</enums>
