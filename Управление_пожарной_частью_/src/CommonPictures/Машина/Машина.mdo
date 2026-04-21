@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62a47031-dd40-481d-be4c-11efb3174bfd">
+  <name>Машина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машина</value>
+  </synonym>
+</mdclass:CommonPicture>

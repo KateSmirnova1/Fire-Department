@@ -29,7 +29,7 @@
   </usedMobileApplicationFunctionalities>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
-  <defaultStyle>Style.ПЧ_13</defaultStyle>
+  <defaultStyle>Style.Стиль1</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -48,7 +48,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.5.1</compatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="63bdba1e-406a-49a1-a582-fa44bdee18ab">
     <name>Русский</name>
     <synonym>
@@ -58,33 +58,51 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Боевая_подготовка</subsystems>
-  <subsystems>Subsystem.ЛичныйСостав</subsystems>
-  <styles>Style.ПЧ_13</styles>
+  <subsystems>Subsystem.Личный_состав</subsystems>
+  <subsystems>Subsystem.ВещевоеОбеспечение</subsystems>
+  <subsystems>Subsystem.ДобавлениеПользователей</subsystems>
+  <styles>Style.Стиль1</styles>
   <commonPictures>CommonPicture.Боевая_подготовка</commonPictures>
-  <commonPictures>CommonPicture.Боевая_подготовка_</commonPictures>
-  <commonPictures>CommonPicture.ЛичныйСостав</commonPictures>
-  <roles>Role.ОрганизацииЧтение</roles>
-  <roles>Role.ОрганизацииЧтениеИЗапись</roles>
-  <roles>Role.ФизЛицаЧтение</roles>
-  <roles>Role.ФизЛицаЧтениеИЗапись</roles>
-  <roles>Role.ГруппаСотрудниковЧтение</roles>
-  <roles>Role.ГруппаСотрудниковЧтениеИЗапись</roles>
-  <roles>Role.НормативыЧтение</roles>
-  <roles>Role.НормативыЧтениеИЗапись</roles>
-  <roles>Role.ВозрастныеГруппыЧтение</roles>
-  <roles>Role.ВозрастныеГруппыЧтениеИЗапись</roles>
+  <commonPictures>CommonPicture.Вызовы</commonPictures>
+  <commonPictures>CommonPicture.Пожарный</commonPictures>
+  <commonPictures>CommonPicture.Машина</commonPictures>
+  <commonPictures>CommonPicture.Одежда</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <roles>Role.СистемныйАдминистратор</roles>
+  <roles>Role.НачальникКараула</roles>
+  <roles>Role.Инструктор</roles>
+  <roles>Role.Кладовщик</roles>
   <commonModules>CommonModule.УправлениеНормативами</commonModules>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ГруппаСотрудников</catalogs>
-  <catalogs>Catalog.Норматив</catalogs>
   <catalogs>Catalog.ВозрастныеГруппы</catalogs>
+  <catalogs>Catalog.Норматив</catalogs>
   <catalogs>Catalog.ТипТренировки</catalogs>
   <catalogs>Catalog.МестоПроведенияТренировки</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ПланСдачиНормативов</documents>
   <documents>Document.СдачаНормативов</documents>
+  <documents>Document.Поступления</documents>
+  <documents>Document.Выдача</documents>
+  <documents>Document.Списание</documents>
   <enums>Enum.ТипФизлиц</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.Оценка</enums>
+  <enums>Enum.РазмерОдежды</enums>
+  <enums>Enum.Роли</enums>
+  <enums>Enum.Пол</enums>
+  <reports>Report.ОстаткиНаСкладе</reports>
+  <reports>Report.ВыданноеИмущество</reports>
+  <reports>Report.СписанноеИмущество</reports>
+  <reports>Report.БоеваяГотовность</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаИзExcelВещевоеИмущество</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаИзExcelБоеваяПодготовка</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаИзExcelЛичныйСостав</dataProcessors>
   <informationRegisters>InformationRegister.РезультатВыполненияНормативов</informationRegisters>
+  <informationRegisters>InformationRegister.Списание</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиИмуществаСотрудников</accumulationRegisters>
 </mdclass:Configuration>

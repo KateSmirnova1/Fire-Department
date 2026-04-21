@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fe7a662-ab9b-41a6-b48f-df6b402a1c6e">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64118b1d-789a-4f5e-ac7f-eb1e8491816f">
   <producedTypes>
-    <selectionType typeId="518b46d9-d361-40c5-a87e-0df22f92e435" valueTypeId="13958541-60a8-4f7c-8db5-6cb1830cb1c5"/>
-    <listType typeId="64072c46-cb47-459b-8c6d-a647cb8ff484" valueTypeId="728cae32-b724-4d80-bff9-bf62d483499d"/>
-    <managerType typeId="b4da21ba-0c01-42b8-a155-dd5ea5bc3ce3" valueTypeId="2d50ed4d-794e-453e-8683-d38777d75114"/>
-    <recordSetType typeId="0eede2b4-ba9d-4e9b-b8c9-5ec48761f8f0" valueTypeId="6808fef2-02bb-482c-b746-655d985fd41c"/>
-    <recordKeyType typeId="f9c8f52f-e5b8-4838-b988-24075b6fe529" valueTypeId="ec004be2-2442-45e0-be38-814c15f63581"/>
-    <recordType typeId="436f7b3f-7744-441b-9970-9d5da337b9c2" valueTypeId="6dc65221-e0ab-46e9-8cdd-5c6b208dd1e4"/>
-    <recordManagerType typeId="520cb1c8-bcdb-4f4c-8c32-0ff0ed5b2cba" valueTypeId="c2c195af-c521-4c2e-a76e-ebe0196410cf"/>
+    <selectionType typeId="ff88cbb3-fa82-474e-98c0-03cd56a3336f" valueTypeId="abed198f-ea92-4a4f-ad21-b1f796b67c24"/>
+    <listType typeId="2ae25d01-39d9-4504-9a62-8e08f5e03e10" valueTypeId="42386a22-371e-4b19-9d0e-31daae2159cb"/>
+    <managerType typeId="174a5dff-c497-4a93-a264-97a43d640b0c" valueTypeId="72a5bb86-5ed6-4683-b9fd-329322a4deff"/>
+    <recordSetType typeId="beaa36a6-c5ff-4744-8f11-f920a13e4f9a" valueTypeId="ac66c24d-5384-49ba-be73-1c2d1e7591ac"/>
+    <recordKeyType typeId="d5d4d0d3-63e7-49ac-ba6d-19d326cf61c6" valueTypeId="bf873d04-3481-4cc7-8b1c-7c88097093a9"/>
+    <recordType typeId="2a1dc391-08e8-43cc-b63d-19f4a7db5509" valueTypeId="781e3791-00dd-43d1-9afd-eee3c76e58d3"/>
+    <recordManagerType typeId="89f23530-484c-437f-8021-36fdd09d109f" valueTypeId="dfa75940-ee03-4a4b-8e5d-c51f571bad00"/>
   </producedTypes>
   <name>РезультатВыполненияНормативов</name>
   <synonym>
@@ -19,7 +19,7 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="6e1f8b97-67db-4dd7-b73e-3dcd9711ae08">
+  <resources uuid="ecb1e2cc-0906-4286-9e18-6e2a88450b30">
     <name>Результат</name>
     <synonym>
       <key>ru</key>
@@ -29,7 +29,7 @@
       <types>Boolean</types>
       <types>Number</types>
       <numberQualifiers>
-        <precision>4</precision>
+        <precision>10</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -39,7 +39,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="77406847-d91c-4583-b4e1-3d81bef2fea1">
+  <resources uuid="6d0eda0a-dee2-4db0-a00f-db246d95e162">
     <name>Оценка</name>
     <synonym>
       <key>ru</key>
@@ -57,7 +57,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="c9036c05-d44e-42f1-bad0-a038a539fcd4">
+  <dimensions uuid="98708b97-2e00-4b2b-9cd6-77d4dc5fda1f">
     <name>ДатаПроведения</name>
     <synonym>
       <key>ru</key>
@@ -76,7 +76,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="b2643469-5a18-4149-8dd9-b488aca4026e">
+  <dimensions uuid="6b27497b-6ecc-4d8d-8d71-723c547b77d8">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -92,7 +92,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="e30214d4-6a8a-441e-ae4b-94e564c75579">
+  <dimensions uuid="16657416-1a0f-4e02-9850-b7b5006c8803">
     <name>Караул</name>
     <synonym>
       <key>ru</key>
@@ -108,7 +108,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="568a8fd1-eacb-41a2-9c83-13424a8b7716">
+  <dimensions uuid="52edbb90-e8d2-4388-906e-d2deb19030bb">
     <name>ТипТренировки</name>
     <synonym>
       <key>ru</key>
@@ -124,7 +124,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="ce9488b3-cc0b-4e2b-bf45-386839937fc5">
+  <dimensions uuid="7d4a6553-37bc-48ac-b22c-6854ad30e3ca">
     <name>МестоПроведения</name>
     <synonym>
       <key>ru</key>
@@ -140,7 +140,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="c4de5688-42f7-47c6-a762-19548a2d6836">
+  <dimensions uuid="6d15f2ce-b904-4664-9d42-dfb77e971587">
     <name>Норматив</name>
     <synonym>
       <key>ru</key>
@@ -156,7 +156,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="5acc2b8a-1e2d-4353-83ba-2d635d308c80">
+  <dimensions uuid="053634bf-2c26-4800-8073-abc7bf76a804">
     <name>НачальникКараула</name>
     <synonym>
       <key>ru</key>
@@ -172,7 +172,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="08af3670-856b-4e1c-a207-72c1058477d0">
+  <dimensions uuid="161084ad-0118-47a3-b426-45e7bb107c8b">
     <name>Инструктор</name>
     <synonym>
       <key>ru</key>
@@ -188,7 +188,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="3fb9de28-7c9b-41ba-b08f-1993618d52bb">
+  <dimensions uuid="b78954aa-de44-4366-99ad-71532ee4f7d3">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>

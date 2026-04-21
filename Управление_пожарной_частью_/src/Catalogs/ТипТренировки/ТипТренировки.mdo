@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4f620c0-d7db-416e-aa66-408f9898db9e">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aac82090-07d2-4b96-a344-251600232829">
   <producedTypes>
-    <objectType typeId="f8d1f01f-df24-42da-9b31-7763ed06d76b" valueTypeId="fe810091-4387-41b3-9541-070e76507a27"/>
-    <refType typeId="ce3cdc0d-2e49-45be-8ab7-a5de96e64657" valueTypeId="b5ae38b1-1002-444b-b21f-7edf625430ee"/>
-    <selectionType typeId="4f5cc16a-a903-491a-87c4-729063a33bba" valueTypeId="089063bd-fd7d-466f-b789-0c207c55fd69"/>
-    <listType typeId="c59697db-bff4-4f9b-82a4-f08a0f1a5959" valueTypeId="23318be6-6b28-40f8-91a2-541f79884baa"/>
-    <managerType typeId="b2ea86f7-4b01-45b6-9c0c-4a3fa698883e" valueTypeId="0b14d887-01c0-4711-b2de-fe389b966727"/>
+    <objectType typeId="9c4e4ef2-b18b-4ef1-b724-3af6b5f0229f" valueTypeId="fc927635-671c-4b94-94d2-061382b9d255"/>
+    <refType typeId="46e802d2-145c-43de-bcc6-03df9ac2f277" valueTypeId="57ba16d6-4553-4cf6-aaae-7074feb1d5f8"/>
+    <selectionType typeId="dc8538a7-0d4d-4719-90b4-3dfd6ab42efb" valueTypeId="2a462e46-978b-433e-94be-fc3145f1a7d9"/>
+    <listType typeId="8d670900-3f09-4c92-aa2c-10f46d29ca6b" valueTypeId="af81aaef-a428-42a5-99e2-8220d98143da"/>
+    <managerType typeId="08230ffe-a25f-457d-9266-76a6c1065986" valueTypeId="9fd6568a-9ea0-40ce-bd43-bbede40b6def"/>
   </producedTypes>
   <name>ТипТренировки</name>
   <synonym>
@@ -13,8 +13,8 @@
     <value>Тип тренировки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ТипТренировки.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.ТипТренировки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипТренировки.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,17 +30,17 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <tabularSections uuid="105aa3d9-0b28-4e53-96da-80a5663e523d">
+  <tabularSections uuid="33584d97-db98-4d5c-b972-9199bf983392">
     <producedTypes>
-      <objectType typeId="0f2d9f9a-7ccc-46d2-89bf-7d3f22ded99e" valueTypeId="bf8ed632-5331-4619-b5a4-f1828f179210"/>
-      <rowType typeId="79b2435c-4f33-4805-968b-4c6f5a23f5ab" valueTypeId="7e08537d-5a7b-4a67-97a1-7b658cd35161"/>
+      <objectType typeId="a8098785-6bc5-4b93-a873-fe27284dd9ee" valueTypeId="7be112a5-6cf2-4a31-a45c-cf44dd8f4a7a"/>
+      <rowType typeId="1263bc52-0304-43b4-8220-0f6dfb8bbe13" valueTypeId="2751ca50-77c8-4259-a426-96045fa110de"/>
     </producedTypes>
     <name>Нормативы</name>
     <synonym>
       <key>ru</key>
       <value>Нормативы</value>
     </synonym>
-    <attributes uuid="458e6690-46b9-472a-b1f9-8d3d6d562f55">
+    <attributes uuid="e6d90478-ca9b-4124-9799-73f1941e4762">
       <name>Норматив</name>
       <synonym>
         <key>ru</key>

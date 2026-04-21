@@ -149,7 +149,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Караул</name>
-    <id>13</id>
+    <id>56</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -164,7 +164,7 @@
     </handlers>
     <extendedTooltip>
       <name>КараулРасширеннаяПодсказка</name>
-      <id>15</id>
+      <id>58</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -174,18 +174,18 @@
     </extendedTooltip>
     <contextMenu>
       <name>КараулКонтекстноеМеню</name>
-      <id>14</id>
+      <id>57</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <selectedItemsActionsPanel>
       <name>КараулПанельДействийВыделенныхСтрок</name>
-      <id>16</id>
+      <id>59</id>
       <fillStdCommands>true</fillStdCommands>
       <horizontalAlign>Left</horizontalAlign>
       <appearanceMode>CommandBar</appearanceMode>
     </selectedItemsActionsPanel>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -255,7 +255,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>МестоПроведения</name>
-    <id>21</id>
+    <id>111</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -266,7 +266,7 @@
     </dataPath>
     <extendedTooltip>
       <name>МестоПроведенияРасширеннаяПодсказка</name>
-      <id>23</id>
+      <id>113</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -276,18 +276,18 @@
     </extendedTooltip>
     <contextMenu>
       <name>МестоПроведенияКонтекстноеМеню</name>
-      <id>22</id>
+      <id>112</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <selectedItemsActionsPanel>
       <name>МестоПроведенияПанельДействийВыделенныхСтрок</name>
-      <id>24</id>
+      <id>114</id>
       <fillStdCommands>true</fillStdCommands>
       <horizontalAlign>Left</horizontalAlign>
       <appearanceMode>CommandBar</appearanceMode>
     </selectedItemsActionsPanel>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -304,7 +304,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>НачальникКараула</name>
-    <id>25</id>
+    <id>119</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -315,7 +315,7 @@
     </dataPath>
     <extendedTooltip>
       <name>НачальникКараулаРасширеннаяПодсказка</name>
-      <id>27</id>
+      <id>121</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -325,18 +325,18 @@
     </extendedTooltip>
     <contextMenu>
       <name>НачальникКараулаКонтекстноеМеню</name>
-      <id>26</id>
+      <id>120</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <selectedItemsActionsPanel>
       <name>НачальникКараулаПанельДействийВыделенныхСтрок</name>
-      <id>28</id>
+      <id>122</id>
       <fillStdCommands>true</fillStdCommands>
       <horizontalAlign>Left</horizontalAlign>
       <appearanceMode>CommandBar</appearanceMode>
     </selectedItemsActionsPanel>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -353,7 +353,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Инструктор</name>
-    <id>29</id>
+    <id>115</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -364,7 +364,7 @@
     </dataPath>
     <extendedTooltip>
       <name>ИнструкторРасширеннаяПодсказка</name>
-      <id>31</id>
+      <id>117</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -374,18 +374,18 @@
     </extendedTooltip>
     <contextMenu>
       <name>ИнструкторКонтекстноеМеню</name>
-      <id>30</id>
+      <id>116</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <selectedItemsActionsPanel>
       <name>ИнструкторПанельДействийВыделенныхСтрок</name>
-      <id>32</id>
+      <id>118</id>
       <fillStdCommands>true</fillStdCommands>
       <horizontalAlign>Left</horizontalAlign>
       <appearanceMode>CommandBar</appearanceMode>
     </selectedItemsActionsPanel>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -401,14 +401,14 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Страницы</name>
-    <id>33</id>
+    <name>Группа1</name>
+    <id>60</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаУпражнения</name>
-      <id>35</id>
+      <name>Нормативы</name>
+      <id>62</id>
       <items xsi:type="form:Table">
         <name>Упражнения</name>
-        <id>37</id>
+        <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -420,7 +420,7 @@
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
           <name>УпражненияНомерСтроки</name>
-          <id>51</id>
+          <id>42</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -431,7 +431,7 @@
           </dataPath>
           <extendedTooltip>
             <name>УпражненияНомерСтрокиРасширеннаяПодсказка</name>
-            <id>53</id>
+            <id>44</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -441,12 +441,12 @@
           </extendedTooltip>
           <contextMenu>
             <name>УпражненияНомерСтрокиКонтекстноеМеню</name>
-            <id>52</id>
+            <id>43</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <selectedItemsActionsPanel>
             <name>УпражненияНомерСтрокиПанельДействийВыделенныхСтрок</name>
-            <id>54</id>
+            <id>45</id>
             <fillStdCommands>true</fillStdCommands>
             <horizontalAlign>Left</horizontalAlign>
             <appearanceMode>CommandBar</appearanceMode>
@@ -462,8 +462,8 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>УпражненияНорматив</name>
-          <id>55</id>
+          <name>УпражненияУпражнение</name>
+          <id>46</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -473,8 +473,8 @@
             <segments>Объект.Упражнения.Норматив</segments>
           </dataPath>
           <extendedTooltip>
-            <name>УпражненияНормативРасширеннаяПодсказка</name>
-            <id>57</id>
+            <name>УпражненияУпражнениеРасширеннаяПодсказка</name>
+            <id>48</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -483,13 +483,13 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>УпражненияНормативКонтекстноеМеню</name>
-            <id>56</id>
+            <name>УпражненияУпражнениеКонтекстноеМеню</name>
+            <id>47</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <selectedItemsActionsPanel>
-            <name>УпражненияНормативПанельДействийВыделенныхСтрок</name>
-            <id>58</id>
+            <name>УпражненияУпражнениеПанельДействийВыделенныхСтрок</name>
+            <id>49</id>
             <fillStdCommands>true</fillStdCommands>
             <horizontalAlign>Left</horizontalAlign>
             <appearanceMode>CommandBar</appearanceMode>
@@ -512,16 +512,16 @@
         </items>
         <autoCommandBar>
           <name>УпражненияКоманднаяПанель</name>
-          <id>39</id>
+          <id>23</id>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
           <name>УпражненияСтрокаПоиска</name>
-          <id>42</id>
+          <id>25</id>
           <extendedTooltip>
             <name>УпражненияСтрокаПоискаРасширеннаяПодсказка</name>
-            <id>44</id>
+            <id>27</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -531,7 +531,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>УпражненияСтрокаПоискаКонтекстноеМеню</name>
-            <id>43</id>
+            <id>26</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <source>Упражнения</source>
@@ -541,10 +541,10 @@
         </searchStringAddition>
         <viewStatusAddition>
           <name>УпражненияСостояниеПросмотра</name>
-          <id>45</id>
+          <id>28</id>
           <extendedTooltip>
             <name>УпражненияСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>47</id>
+            <id>30</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -554,7 +554,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>УпражненияСостояниеПросмотраКонтекстноеМеню</name>
-            <id>46</id>
+            <id>29</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
@@ -565,10 +565,10 @@
         </viewStatusAddition>
         <searchControlAddition>
           <name>УпражненияУправлениеПоиском</name>
-          <id>48</id>
+          <id>31</id>
           <extendedTooltip>
             <name>УпражненияУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>50</id>
+            <id>33</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -578,7 +578,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>УпражненияУправлениеПоискомКонтекстноеМеню</name>
-            <id>49</id>
+            <id>32</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
@@ -589,7 +589,7 @@
         </searchControlAddition>
         <extendedTooltip>
           <name>УпражненияРасширеннаяПодсказка</name>
-          <id>40</id>
+          <id>24</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -599,12 +599,12 @@
         </extendedTooltip>
         <contextMenu>
           <name>УпражненияКонтекстноеМеню</name>
-          <id>38</id>
+          <id>22</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>УпражненияПанельДействийВыделенныхСтрок</name>
-          <id>41</id>
+          <id>34</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
@@ -641,11 +641,15 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Упражнения</value>
+        <value>Нормативы</value>
       </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Нормативы</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ГруппаУпражненияРасширеннаяПодсказка</name>
-        <id>36</id>
+        <name>НормативыРасширеннаяПодсказка</name>
+        <id>63</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -659,11 +663,11 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаСотрудники</name>
-      <id>59</id>
+      <name>Участники</name>
+      <id>64</id>
       <items xsi:type="form:Table">
         <name>Сотрудники</name>
-        <id>61</id>
+        <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -675,7 +679,7 @@
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
           <name>СотрудникиНомерСтроки</name>
-          <id>75</id>
+          <id>87</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -686,7 +690,7 @@
           </dataPath>
           <extendedTooltip>
             <name>СотрудникиНомерСтрокиРасширеннаяПодсказка</name>
-            <id>77</id>
+            <id>89</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -696,18 +700,18 @@
           </extendedTooltip>
           <contextMenu>
             <name>СотрудникиНомерСтрокиКонтекстноеМеню</name>
-            <id>76</id>
+            <id>88</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <selectedItemsActionsPanel>
             <name>СотрудникиНомерСтрокиПанельДействийВыделенныхСтрок</name>
-            <id>78</id>
+            <id>90</id>
             <fillStdCommands>true</fillStdCommands>
             <horizontalAlign>Left</horizontalAlign>
             <appearanceMode>CommandBar</appearanceMode>
           </selectedItemsActionsPanel>
           <type>LabelField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -718,7 +722,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>СотрудникиСотрудник</name>
-          <id>79</id>
+          <id>91</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -727,9 +731,13 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Сотрудники.Сотрудник</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>СотрудникиСотрудникПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>СотрудникиСотрудникРасширеннаяПодсказка</name>
-            <id>81</id>
+            <id>93</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -739,18 +747,18 @@
           </extendedTooltip>
           <contextMenu>
             <name>СотрудникиСотрудникКонтекстноеМеню</name>
-            <id>80</id>
+            <id>92</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <selectedItemsActionsPanel>
             <name>СотрудникиСотрудникПанельДействийВыделенныхСтрок</name>
-            <id>82</id>
+            <id>94</id>
             <fillStdCommands>true</fillStdCommands>
             <horizontalAlign>Left</horizontalAlign>
             <appearanceMode>CommandBar</appearanceMode>
           </selectedItemsActionsPanel>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -767,7 +775,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>СотрудникиДолжность</name>
-          <id>83</id>
+          <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -778,7 +786,7 @@
           </dataPath>
           <extendedTooltip>
             <name>СотрудникиДолжностьРасширеннаяПодсказка</name>
-            <id>85</id>
+            <id>97</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -788,18 +796,18 @@
           </extendedTooltip>
           <contextMenu>
             <name>СотрудникиДолжностьКонтекстноеМеню</name>
-            <id>84</id>
+            <id>96</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <selectedItemsActionsPanel>
             <name>СотрудникиДолжностьПанельДействийВыделенныхСтрок</name>
-            <id>86</id>
+            <id>98</id>
             <fillStdCommands>true</fillStdCommands>
             <horizontalAlign>Left</horizontalAlign>
             <appearanceMode>CommandBar</appearanceMode>
           </selectedItemsActionsPanel>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -816,16 +824,16 @@
         </items>
         <autoCommandBar>
           <name>СотрудникиКоманднаяПанель</name>
-          <id>63</id>
+          <id>68</id>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
           <name>СотрудникиСтрокаПоиска</name>
-          <id>66</id>
+          <id>70</id>
           <extendedTooltip>
             <name>СотрудникиСтрокаПоискаРасширеннаяПодсказка</name>
-            <id>68</id>
+            <id>72</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -835,7 +843,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>СотрудникиСтрокаПоискаКонтекстноеМеню</name>
-            <id>67</id>
+            <id>71</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <source>Сотрудники</source>
@@ -845,10 +853,10 @@
         </searchStringAddition>
         <viewStatusAddition>
           <name>СотрудникиСостояниеПросмотра</name>
-          <id>69</id>
+          <id>73</id>
           <extendedTooltip>
             <name>СотрудникиСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>71</id>
+            <id>75</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -858,7 +866,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>СотрудникиСостояниеПросмотраКонтекстноеМеню</name>
-            <id>70</id>
+            <id>74</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
@@ -869,10 +877,10 @@
         </viewStatusAddition>
         <searchControlAddition>
           <name>СотрудникиУправлениеПоиском</name>
-          <id>72</id>
+          <id>76</id>
           <extendedTooltip>
             <name>СотрудникиУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>74</id>
+            <id>78</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -882,7 +890,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>СотрудникиУправлениеПоискомКонтекстноеМеню</name>
-            <id>73</id>
+            <id>77</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
@@ -893,7 +901,7 @@
         </searchControlAddition>
         <extendedTooltip>
           <name>СотрудникиРасширеннаяПодсказка</name>
-          <id>64</id>
+          <id>69</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -903,16 +911,17 @@
         </extendedTooltip>
         <contextMenu>
           <name>СотрудникиКонтекстноеМеню</name>
-          <id>62</id>
+          <id>67</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>СотрудникиПанельДействийВыделенныхСтрок</name>
-          <id>65</id>
+          <id>79</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
         </selectedItemsActionsPanel>
+        <representation>HierarchicalList</representation>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
@@ -945,11 +954,15 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Сотрудники</value>
+        <value>Участники</value>
       </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Участники</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ГруппаСотрудникиРасширеннаяПодсказка</name>
-        <id>60</id>
+        <name>УчастникиРасширеннаяПодсказка</name>
+        <id>65</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -967,13 +980,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Страницы</value>
-    </title>
     <extendedTooltip>
-      <name>СтраницыРасширеннаяПодсказка</name>
-      <id>34</id>
+      <name>Группа1РасширеннаяПодсказка</name>
+      <id>61</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

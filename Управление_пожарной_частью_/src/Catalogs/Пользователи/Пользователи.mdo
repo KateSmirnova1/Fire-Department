@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ddf7daf-b17e-4263-8a1c-cb55e25c2c27">
+  <producedTypes>
+    <objectType typeId="d7d14d51-2032-41d1-b7d1-a2b1f38ca390" valueTypeId="3c2e3f1b-e585-4ed9-8c1a-b15e330c3184"/>
+    <refType typeId="1eb4dcef-a163-4c8d-b0c5-5b798cd84c75" valueTypeId="dbc8eaca-c86e-4d1c-a434-35e6a17750c8"/>
+    <selectionType typeId="ca36c67a-71e2-46ee-83fc-9f431242cbff" valueTypeId="8faa49d3-aac5-4023-b49e-f5c256654ba0"/>
+    <listType typeId="ee1f7a74-89e5-4488-b89e-b7fbf9321ea7" valueTypeId="ff37d29d-4b77-4dfc-99e5-367c4cbbbb0e"/>
+    <managerType typeId="0a70f262-37c3-4294-8497-a88a5af33d14" valueTypeId="267cf54d-4165-45a5-979d-6f4bbf9fbc01"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ccad26a8-11c8-4c81-9d32-a7080fcaa080">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="095b6c01-1056-4fb6-84c0-54bc83a5e652">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9878fa0-85f1-4404-976d-723514a30492">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b3934016-644c-4a71-af99-f906ce2bd9ca">
+    <producedTypes>
+      <objectType typeId="751baf19-3364-448e-9d09-e517c1dc56ed" valueTypeId="9f5dd020-49cc-49e4-aeba-089c86a4c01a"/>
+      <rowType typeId="34f5b300-f911-4e3c-8150-af65c46dd79f" valueTypeId="9e4fad88-591c-40ce-8284-61d0639d92b2"/>
+    </producedTypes>
+    <name>НазначенныеРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначенные роли</value>
+    </synonym>
+    <attributes uuid="11036292-6bc9-4f14-a6ec-71e4ab65777a">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Роли</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="12fdf447-b0c7-4f74-9009-12890b430c7a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

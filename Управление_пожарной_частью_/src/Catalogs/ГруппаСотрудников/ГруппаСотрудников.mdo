@@ -31,7 +31,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="d218aa9d-3803-4e73-a8a6-c81100d18c9a">
-    <name>Начальник_караула</name>
+    <name>НачальникКараула</name>
     <synonym>
       <key>ru</key>
       <value>Начальник караула</value>

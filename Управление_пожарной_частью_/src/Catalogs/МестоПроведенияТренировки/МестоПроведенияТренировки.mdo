@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4192add-e2aa-46ff-b356-8fda8c5f30c8">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1067b72-e608-408c-83bc-31299f0f6e5f">
   <producedTypes>
-    <objectType typeId="1222ec5e-9ec1-4113-bff9-59dd056cca44" valueTypeId="d07af0c6-e6cf-474c-8412-07a5807b1ea1"/>
-    <refType typeId="aec480c0-d9d7-4f47-85bf-e0b114f8bafb" valueTypeId="d159e7b5-1d02-4562-9a0f-39d66181b2ab"/>
-    <selectionType typeId="c11bcd5f-696b-4e27-a4cb-726c847f6e6c" valueTypeId="58095c29-6c2e-44e6-b513-472f6ddb42e0"/>
-    <listType typeId="317b599d-fc44-4d8c-a525-5150692031cb" valueTypeId="75f59ae0-88d1-443e-b68f-8289bcab91d6"/>
-    <managerType typeId="0e5b8768-2770-42da-af61-23a72544ac25" valueTypeId="3109a4e7-9fa4-4b3e-ae8b-b61e8660f2c5"/>
+    <objectType typeId="88e4b95c-465d-40e4-9f05-7c961336c551" valueTypeId="13552d67-e941-4168-87db-6cd10ed498fa"/>
+    <refType typeId="bd6d6ec5-8a83-4dca-89f9-3de2bd915c50" valueTypeId="cf2db03a-e75e-4094-bcf9-4a4f8670ee8e"/>
+    <selectionType typeId="31147c89-a376-499d-9164-54b807a18a4d" valueTypeId="0da25108-32da-40f8-8eb1-2c1be432b0d3"/>
+    <listType typeId="2ce8c46c-5797-4130-80c3-52efc78d1ff1" valueTypeId="a2a6e567-cb44-497d-b03a-4a65b2421776"/>
+    <managerType typeId="4404fd87-8544-4548-88f9-fa0541773743" valueTypeId="6ba25c47-da04-4974-9842-2d4b67ccdb11"/>
   </producedTypes>
   <name>МестоПроведенияТренировки</name>
   <synonym>
@@ -13,8 +13,8 @@
     <value>Место проведения тренировки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.МестоПроведенияТренировки.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.МестоПроведенияТренировки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МестоПроведенияТренировки.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fa0eb5-eeaa-4673-842d-08f35d36acd7">
+  <producedTypes>
+    <objectType typeId="e997a300-0f62-42cd-8532-1e7178f329aa" valueTypeId="94fd5e0b-5a16-4b45-b5fd-43035c75a27b"/>
+    <managerType typeId="53c8eb61-db9a-437e-99f6-376604e0dc7d" valueTypeId="07d4bfd2-0828-4af7-a118-0b20f294d93b"/>
+  </producedTypes>
+  <name>БоеваяГотовность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Боевая готовность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.БоеваяГотовность.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3be8a94c-92fe-4e66-b235-8f17b3626d3c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

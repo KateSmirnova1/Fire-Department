@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7814437a-2fe1-42c3-9d97-8478270de744">
+  <producedTypes>
+    <refType typeId="ac3e15f5-3dc0-4f53-b15a-b2f1bfcdbb38" valueTypeId="f1e6ca15-2817-4159-90b6-095239f31fa6"/>
+    <listType typeId="e9d0228a-e7e7-49ad-aba2-8d08887c64cd" valueTypeId="412b7916-4f6d-4752-964a-b3155dde7a6a"/>
+    <managerType typeId="5588ec5a-388e-44a4-8a52-ba649fd826e5" valueTypeId="4ac17c8a-f840-4c38-a9c5-8608764ac40a"/>
+  </producedTypes>
+  <name>Роли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="28663d75-e12f-42af-a99d-95fd833d9e11">
+    <name>СистемныйАдминистратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системный администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efc1d69e-892d-4a9d-b6c3-6ef19a611059">
+    <name>НачальникКараула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник караула</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3731b822-93f7-400e-be74-090137af3d11">
+    <name>Инструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструктор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4bea60f-728f-4a24-b33f-d16c1c69b376">
+    <name>Кладовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кладовщик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1a364b5-2a5b-4378-8caa-bf4b7a563596">
+  <producedTypes>
+    <objectType typeId="74dcb462-da8f-4c81-bb8f-ef6c179a1d1a" valueTypeId="408c5f79-02d9-413d-8c19-d94ed11121ab"/>
+    <refType typeId="11a3d38e-2810-454d-bf89-01ffe46caf78" valueTypeId="3cfffe81-817f-4b05-8529-d17bc5638691"/>
+    <selectionType typeId="81145dc8-66b7-4ed2-8334-bc5f81dc14b9" valueTypeId="032eafb5-7397-43b0-8247-cc393853464d"/>
+    <listType typeId="97d3d828-c165-40b0-9eb1-088626101fe4" valueTypeId="b68f9e8a-3767-406a-b26b-da3df91f16ac"/>
+    <managerType typeId="14ba76d2-939b-4e39-8c5c-fdb3356c4e4f" valueTypeId="e785eff3-74a0-4c78-a834-39632cf044d2"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b7d132b5-2bea-41a7-8c48-29e1fe8bbd36">
+    <name>СрокИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок использования (мес.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

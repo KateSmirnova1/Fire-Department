@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcdcfc7-41aa-415d-a00c-6da0a93a950d">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4190b22e-f2c5-4b8d-846b-8cc8c5ec8c3b">
   <producedTypes>
-    <objectType typeId="efc2426d-652c-4df0-ba7e-da7a07d5ffb1" valueTypeId="0169f609-0648-43a1-9a8b-9e17aea75275"/>
-    <refType typeId="1a05ffb7-ea31-43e2-a3bd-c7c36954b753" valueTypeId="c7975844-fd51-441d-9320-4645e9514c39"/>
-    <selectionType typeId="e228c073-47fa-43e6-8bd3-994b518ae032" valueTypeId="2460cb8e-2cac-4359-83c0-f7f3da830e21"/>
-    <listType typeId="15187538-ba0b-427f-91d7-086ea2f633ca" valueTypeId="06acd0fa-9f78-4f46-861f-a24b4460ffd7"/>
-    <managerType typeId="da2d28ea-457d-46d4-ad33-aafe698411ce" valueTypeId="320eff23-9f1c-425c-931c-b5277e5f4364"/>
+    <objectType typeId="1183353c-582c-49a7-bcdf-0967ae84038f" valueTypeId="f5cdb49c-8c88-4d4e-8f4d-ec9d8d764db0"/>
+    <refType typeId="47ffdb1f-fc49-4f44-94d2-b7a9bbe3acc2" valueTypeId="f0ff0fef-2779-4092-b84e-f40dcb4687c8"/>
+    <selectionType typeId="8af3d5de-182f-43fa-aed3-2be919551426" valueTypeId="2767bfb3-8265-4938-92b4-d06323e39360"/>
+    <listType typeId="8fb9a6c9-45c0-49a7-bad4-8fe15ffd3fcb" valueTypeId="c1a6f92d-d3c3-4285-a80c-c5e82ca54e25"/>
+    <managerType typeId="af2bd22a-0e29-4c91-a8b4-f1834d182b08" valueTypeId="c78350e7-d6f5-4727-b497-d2c22e0a97d9"/>
   </producedTypes>
   <name>Норматив</name>
   <synonym>
@@ -16,14 +16,93 @@
   <inputByString>Catalog.Норматив.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Норматив.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнение</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>150</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -31,17 +110,17 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <tabularSections uuid="8d731072-bf7a-4d00-9f70-29ca3e0d192a">
+  <tabularSections uuid="9e3d49fa-68ef-4436-ae74-a575e09cf542">
     <producedTypes>
-      <objectType typeId="b74d9a79-f441-4c90-909e-103f8037bf12" valueTypeId="84a830fd-afda-4ecf-aa91-81cda37f9173"/>
-      <rowType typeId="022ad4c7-d7bc-47f8-86b5-de33b9694f12" valueTypeId="119e8e16-d3b4-4423-b1d7-fa2bb1c260e9"/>
+      <objectType typeId="5b25dd3b-38a7-4070-8ccd-16db525bc71d" valueTypeId="d488deb8-162b-4306-bb02-025f32b78f59"/>
+      <rowType typeId="f8a1dd54-ff7e-4366-aa52-67a799fea710" valueTypeId="f9019fb5-fd3e-4271-aaa6-1548ac87fa55"/>
     </producedTypes>
     <name>Значения</name>
     <synonym>
       <key>ru</key>
       <value>Значения</value>
     </synonym>
-    <attributes uuid="671642c5-c7f1-4b65-b2af-d2c633071fda">
+    <attributes uuid="27fb40ae-ed86-474f-b57b-db2360849c31">
       <name>ВозрастнаяГруппа</name>
       <synonym>
         <key>ru</key>
@@ -55,7 +134,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="56056b6b-0cde-4376-9d57-01b496f33a07">
+    <attributes uuid="b88bf838-3596-489f-8065-2ccf972fc684">
       <name>Оценка</name>
       <synonym>
         <key>ru</key>
@@ -69,7 +148,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="22378926-19ae-421f-916a-3a2c54ba805b">
+    <attributes uuid="28fadedb-df20-44e5-b5cd-31709b2d0b90">
       <name>МинимальноеЗначение</name>
       <synonym>
         <key>ru</key>
@@ -79,7 +158,7 @@
         <types>Boolean</types>
         <types>Number</types>
         <numberQualifiers>
-          <precision>4</precision>
+          <precision>10</precision>
           <scale>2</scale>
         </numberQualifiers>
       </type>
@@ -88,7 +167,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="421fc9a8-4ac2-4b21-bb1c-1071ea64bb93">
+    <attributes uuid="7a98ee0f-e26a-4ca4-824c-e60d19e4e33d">
       <name>МаксимальноеЗначение</name>
       <synonym>
         <key>ru</key>
@@ -98,7 +177,7 @@
         <types>Boolean</types>
         <types>Number</types>
         <numberQualifiers>
-          <precision>4</precision>
+          <precision>10</precision>
           <scale>2</scale>
         </numberQualifiers>
       </type>

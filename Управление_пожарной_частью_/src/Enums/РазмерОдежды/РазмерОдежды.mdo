@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55ad7f74-60e7-4b69-96e3-ff671356834a">
+  <producedTypes>
+    <refType typeId="a01ae5ae-cce8-43af-a061-00765f4e1d74" valueTypeId="8b5bafb6-5a3a-42e3-b808-4ade48ccc34c"/>
+    <listType typeId="06576b3e-3b30-4019-a236-172c2adc520d" valueTypeId="ca01f266-6bcb-443b-af13-ef9f4295fd2e"/>
+    <managerType typeId="328af8fd-b762-434c-87d9-1b61047a4f87" valueTypeId="6367c76f-f431-4e5c-8f35-a35bf99cb62c"/>
+  </producedTypes>
+  <name>РазмерОдежды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер одежды</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2dfa57e5-810b-4efa-a2b2-e6e41e9c6108">
+    <name>_46</name>
+    <synonym>
+      <key>ru</key>
+      <value>46</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16cbdee5-8a59-4709-9e59-5c399cfa0ba2">
+    <name>_47</name>
+    <synonym>
+      <key>ru</key>
+      <value>47</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c12cb18-9979-4820-bac3-a44d83d14399">
+    <name>_50</name>
+    <synonym>
+      <key>ru</key>
+      <value>50</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c887106d-2255-4da5-8cca-b47faa5ee337">
+    <name>_52</name>
+    <synonym>
+      <key>ru</key>
+      <value>52</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

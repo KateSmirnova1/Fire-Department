@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f89877e3-fbf3-48f9-a8af-b8297cb784ad">
+  <producedTypes>
+    <objectType typeId="7b92fae6-12a8-41ea-b572-55e7967b10c0" valueTypeId="c3b50c36-95fd-4ce7-89ab-eb07741d3a28"/>
+    <managerType typeId="1575e57c-945b-4a4e-8481-a1ac5f7427b4" valueTypeId="3a283ca3-9fe9-4cad-b7f3-255aa2c0fa2f"/>
+  </producedTypes>
+  <name>ЗагрузкаИзExcelБоеваяПодготовка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка из excel</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаИзExcelБоеваяПодготовка.Form.Форма</defaultForm>
+  <forms uuid="6f0f7517-cec0-4510-82d1-4a6f1b6af6af">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

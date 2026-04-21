@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32edc4a7-722a-4921-b978-7182299e517b">
+  <producedTypes>
+    <selectionType typeId="da497015-6d6d-4ddb-b22f-d70c59e7805b" valueTypeId="fcfd71b7-804a-426f-b4d4-d97cff11bc9e"/>
+    <listType typeId="d3b6d677-40b7-4664-9bb1-3196597d378d" valueTypeId="6506f482-4587-4d12-9918-d85692f081be"/>
+    <managerType typeId="0e73b873-edd7-4891-9075-6ca67eeb178a" valueTypeId="5bea56c1-3b06-4826-a7ea-5d8da0f2fcdf"/>
+    <recordSetType typeId="fb3d86ea-abac-4e0f-ab59-e6bc7817e62e" valueTypeId="59831142-a713-4047-aee3-22a47edc302e"/>
+    <recordKeyType typeId="baa814fd-b1a2-4952-9a6f-6c540cb9b468" valueTypeId="cae66d45-f994-4dc0-aa8b-0f41d6baf75d"/>
+    <recordType typeId="52728fe4-543f-4839-ae17-85d0f3071f4c" valueTypeId="152969d0-c4b7-4446-81f5-09220ec3d1b3"/>
+  </producedTypes>
+  <name>ОстаткиИмуществаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки имущества сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f86ba699-6e10-4cd9-8c72-b9346edffe9b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a0cea8bf-3543-4628-987b-0db51c0ab686">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="238ddc3c-71d9-4ed2-a760-56ab9801a1a3">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fe87c7cf-16cc-4566-864e-0d4df4fa1d02">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="27da1300-9cff-4c9a-84d7-ce052f055ca7">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РазмерОдежды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

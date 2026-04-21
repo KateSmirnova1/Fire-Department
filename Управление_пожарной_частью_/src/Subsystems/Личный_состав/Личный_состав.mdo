@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="526d36bc-eb1c-4b4a-8b7b-d71d66cf2646">
+  <name>Личный_состав</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный состав</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Пожарный</picture>
+  </picture>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ГруппаСотрудников</content>
+  <content>Catalog.ВозрастныеГруппы</content>
+  <content>Catalog.Организации</content>
+  <content>DataProcessor.ЗагрузкаИзExcelЛичныйСостав</content>
+</mdclass:Subsystem>

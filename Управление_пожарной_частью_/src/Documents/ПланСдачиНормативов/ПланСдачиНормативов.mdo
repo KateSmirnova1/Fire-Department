@@ -41,7 +41,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5ea06b68-4da8-47af-a3c0-6611a8bccb42">
+  <attributes uuid="546d9d19-6529-4b6c-8ba3-8b9861d1e73d">
     <name>Караул</name>
     <synonym>
       <key>ru</key>
@@ -56,7 +56,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="54d783ab-b39d-4a22-8e06-d4ef31133a26">
+  <attributes uuid="6741543d-f9ff-4d5e-8589-2b13320c1e20">
     <name>ТипТренировки</name>
     <synonym>
       <key>ru</key>
@@ -71,7 +71,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="63753e73-5e06-4d2d-a5b1-11e94b302257">
+  <attributes uuid="617783d6-2496-4a7e-93ea-36bbada66e44">
     <name>МестоПроведения</name>
     <synonym>
       <key>ru</key>
@@ -101,7 +101,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d33e6b9b-b923-44e2-ac7e-3d8505a680cf">
+  <attributes uuid="139abc43-11ef-4bcf-82c0-ec2a4a4afab3">
     <name>Инструктор</name>
     <synonym>
       <key>ru</key>
@@ -116,7 +116,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="9f1cc162-e5bc-4562-962d-2c342c46e579">
+  <forms uuid="486f794f-7863-40f2-98f5-a5e88e7e5e3b">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -125,17 +125,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="2df39516-e3bc-430e-96d6-d331841a5188">
+  <tabularSections uuid="79e23ef9-8758-4f72-b629-e686a236ff5c">
     <producedTypes>
-      <objectType typeId="cfa46249-beb4-4f7c-8090-ae79bb052671" valueTypeId="3a654388-5bad-4ddb-819e-42665a9a71ba"/>
-      <rowType typeId="5d184418-3e3c-458a-b8eb-5b4cde2ddd0e" valueTypeId="b157cc62-ddaf-4702-8734-19c8c8c9dbe6"/>
+      <objectType typeId="80f7d1d8-3a57-46ec-949c-0738ad207b09" valueTypeId="c548a2ca-7ef2-4080-9193-33e62773c473"/>
+      <rowType typeId="e06a1dcf-03c6-480b-b0df-b35c96be239d" valueTypeId="4b2e308e-da28-4a42-8e79-6c66603bc581"/>
     </producedTypes>
     <name>Упражнения</name>
     <synonym>
       <key>ru</key>
       <value>Упражнения</value>
     </synonym>
-    <attributes uuid="1cd09d29-2562-48b7-a869-33885e8e4840">
+    <attributes uuid="d70e0605-817f-4cbb-ab0d-4c7121837553">
       <name>Норматив</name>
       <synonym>
         <key>ru</key>
@@ -151,17 +151,17 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
-  <tabularSections uuid="d60dbddf-dd8f-45d1-8151-bfda0f1b008f">
+  <tabularSections uuid="400848f6-7a52-4f2a-b690-e3ccb2404bbf">
     <producedTypes>
-      <objectType typeId="ecd6b771-2e07-4cf8-8b27-f22e0eb7dee6" valueTypeId="dc8e08f7-ab7f-4099-b507-d08f30b9bfa0"/>
-      <rowType typeId="9b1231cc-2626-490d-b48e-becf0fcf72c0" valueTypeId="857d596c-9711-4530-aeda-0f33b7f65be6"/>
+      <objectType typeId="58e1657f-c168-4a29-b39e-3efd23077762" valueTypeId="17d8891f-7b59-4e5d-a091-d33583dee714"/>
+      <rowType typeId="89d2772a-ad54-476d-8419-06910677a1ec" valueTypeId="04184bfa-9af7-43c4-9090-3122ad2b9aea"/>
     </producedTypes>
     <name>Сотрудники</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудники</value>
     </synonym>
-    <attributes uuid="5ec4e0d5-23aa-47d9-8518-893f169813f1">
+    <attributes uuid="c45058bd-26a7-4eef-bf71-337c6cd0e33f">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -175,7 +175,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="cf34d856-eaf5-4ccb-9729-72c111d68ef3">
+    <attributes uuid="64791eb5-6aaf-46b7-9e1a-12e110414ac7">
       <name>Должность</name>
       <synonym>
         <key>ru</key>

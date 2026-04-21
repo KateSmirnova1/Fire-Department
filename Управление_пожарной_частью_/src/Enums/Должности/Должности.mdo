@@ -61,4 +61,18 @@
       <value>Командир отделения</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="fea4435e-dac1-44c7-8451-2565b62adbbe">
+    <name>Кладовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кладовщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c0d36eb-ae8b-4efd-a79c-b9be503b283c">
+    <name>Инструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструктор</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

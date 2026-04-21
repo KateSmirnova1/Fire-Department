@@ -43,7 +43,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="40097a18-92d8-4f35-b7d8-9df547749910">
+  <attributes uuid="1495b2ee-caee-4e64-86a0-e317bbf77cbe">
     <name>Караул</name>
     <synonym>
       <key>ru</key>
@@ -58,7 +58,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a0cfb45b-9464-4dd3-bb4f-429405b1b059">
+  <attributes uuid="3e6c8390-4d31-4494-ba20-caa241055032">
     <name>ТипТренировки</name>
     <synonym>
       <key>ru</key>
@@ -73,7 +73,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="aa5c5c9a-bc5c-48e5-a120-267ecc639a64">
+  <attributes uuid="acc2e715-f490-4a3f-abd8-992ac3ed4dff">
     <name>МестоПроведения</name>
     <synonym>
       <key>ru</key>
@@ -103,7 +103,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="65118b93-52ce-451d-918f-1fb6c082b9ae">
+  <attributes uuid="a6dad5c4-1f4f-4da6-be43-2a1c7648ee7e">
     <name>Инструктор</name>
     <synonym>
       <key>ru</key>
@@ -118,7 +118,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="fdeb7348-d508-4812-ad44-f997a7b01973">
+  <forms uuid="6314bbbf-ad1b-476e-ba26-183f93a578e2">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -184,7 +184,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="7fab033d-9a5b-4f73-a47c-a0742e5da62e">
+    <attributes uuid="42f35593-c372-4bad-8a61-57a63cf1dbd6">
       <name>Оценка</name>
       <synonym>
         <key>ru</key>
