@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a8e1ab-4460-4631-bfa5-e483298e7db7">
+  <producedTypes>
+    <objectType typeId="ec7b7e2f-9b9f-4449-bf45-f0d2856020d8" valueTypeId="19ea2f8b-dbca-4b67-b66f-7d074ebf3763"/>
+    <refType typeId="6787dc4c-0f7d-45ee-bd3b-8b171b560ebe" valueTypeId="0222f5ea-0d51-4a2e-aea5-ee2ea3c37a7c"/>
+    <selectionType typeId="e521f114-97fd-4b2b-97c0-f17a357e0994" valueTypeId="9ecdd357-0db8-46eb-b690-69fa693b80fd"/>
+    <listType typeId="94c00fca-e1fe-4268-b394-4113d4936859" valueTypeId="30951895-d360-45d6-ba13-7aa123bfb8e2"/>
+    <managerType typeId="b03fdcab-d23e-423d-baaf-f78b3e4954fe" valueTypeId="5d49e771-34f4-4c2a-b036-91e3490751a8"/>
+  </producedTypes>
+  <name>ГруппыДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыДоступа.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ГруппыДоступа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="67306eb7-2e07-4a6a-9693-98297e7d0a8f">
+    <producedTypes>
+      <objectType typeId="79642fb5-2771-4615-aeed-9faada91f31c" valueTypeId="cd8968ce-648f-43de-a746-4ab89cb8cb43"/>
+      <rowType typeId="dd341841-1ea9-4225-83ea-eab26c3964e3" valueTypeId="f8949b88-1963-4ea0-b4ba-a81ea9a07f4c"/>
+    </producedTypes>
+    <name>Роли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли</value>
+    </synonym>
+    <attributes uuid="ebe1651b-bf27-49c0-bace-28ec5bfa14e3">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Роли</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

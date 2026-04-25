@@ -83,6 +83,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ГруппыДоступа</catalogs>
   <documents>Document.ПланСдачиНормативов</documents>
   <documents>Document.СдачаНормативов</documents>
   <documents>Document.Поступления</documents>
