@@ -45,6 +45,10 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>ФИО</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -216,7 +220,6 @@
   <items xsi:type="form:FormField">
     <name>УникальныйИдентификатор</name>
     <id>45</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
