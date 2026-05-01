@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4d7cfdc-d9e8-4177-baae-6709392edd66">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84312302-78f1-440d-9399-2ac18326f9d6">
   <producedTypes>
-    <objectType typeId="262765b0-be55-4682-b1e8-c8b4a1d42c67" valueTypeId="0cb0fd38-c967-4901-809a-581be8079cbe"/>
-    <refType typeId="729f346d-266a-4570-882f-86ef974e1e26" valueTypeId="30de475b-c1e2-4c02-bd9f-18ce85705d3f"/>
-    <selectionType typeId="2bcc3f6b-a1e1-4707-9816-a2ac40461214" valueTypeId="6fe2e09f-d99f-4b1a-995e-7323b78a8c18"/>
-    <listType typeId="ba6d19b1-b60c-4bb3-a7f6-15dc75a1278d" valueTypeId="acfa5256-0ee0-481a-acb3-75598edcba57"/>
-    <managerType typeId="f75a5018-d950-4fb4-a042-6bb48d3abdea" valueTypeId="ff465c5b-f157-422f-bd00-86d484e6d498"/>
+    <objectType typeId="f1cfd984-aba0-4291-b593-1eaf89bd0118" valueTypeId="8a84284e-d23a-4c56-ac8d-0c6db4db2914"/>
+    <refType typeId="91475027-3864-43b4-9f2e-296177ee67f1" valueTypeId="cacc03fd-6be3-4421-bce3-791dfc474a88"/>
+    <selectionType typeId="630b8fbc-49aa-4c18-a6a6-13d7e8587cd5" valueTypeId="2595fb60-b199-4294-9b79-666c4f3078fe"/>
+    <listType typeId="780caceb-9c3d-4d56-a7b6-bf43ca22cb70" valueTypeId="8ce2c80c-382f-4617-83a0-afb27c03607d"/>
+    <managerType typeId="930c74cd-6c43-46f6-800d-8ed61f6fd4e8" valueTypeId="a80b6939-d7d0-43ba-a4a7-48fed0b5bb60"/>
   </producedTypes>
-  <name>Списание</name>
+  <name>ВыдачаВещевогоИмущества</name>
   <synonym>
     <key>ru</key>
-    <value>Списание</value>
+    <value>Выдача вещевого имущества</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Списание.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВыдачаВещевогоИмущества.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,10 +23,11 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ВещевоеИмуществоСотрудников</registerRecords>
   <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f9829617-6d63-42ef-9f30-768d96441a8a">
+  <attributes uuid="a0c3e079-ea94-4508-aacf-89c077ecc439">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -41,7 +42,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2c339eba-20fc-4fe0-b660-706d95bea39f">
+  <attributes uuid="50acd147-75b7-4dab-a648-e53c97d5462f">
     <name>Склад</name>
     <synonym>
       <key>ru</key>
@@ -56,7 +57,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="73e08151-3fb1-4b8d-92e9-6a96ff80b6b0">
+  <attributes uuid="ded1f4be-df62-4561-9472-b800bd2a0825">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1728f235-7b4e-4186-a0b2-4c8a795f6ed2">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -72,7 +88,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7c32b1e7-74ed-409b-be76-205c677cc267">
+  <attributes uuid="1e9b5bd7-d86b-4323-871b-48d847df1382">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -87,17 +103,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="9084b030-0455-4aab-b8e2-c35bf2ca1b1f">
+  <tabularSections uuid="cdb57126-6ecd-42b0-80b5-db23c8d78b52">
     <producedTypes>
-      <objectType typeId="e1a1e561-e376-4dfb-9862-a536013f6b7c" valueTypeId="479dcb91-6259-46d1-969c-84cd8f8ed62a"/>
-      <rowType typeId="6bf375bb-d0c4-4758-8364-d7bd040ee91e" valueTypeId="75256323-d5a4-4f43-b7ee-b0943ae30a7f"/>
+      <objectType typeId="dd9f56ad-23ae-43d3-91f1-523e6fc69a09" valueTypeId="ded4dfcd-26bc-4ae6-a50e-ca46305b6611"/>
+      <rowType typeId="12eb727d-1897-4401-bec7-d2d25e24e081" valueTypeId="4e6a5f6c-9721-483f-8fd8-628182a22f8a"/>
     </producedTypes>
-    <name>ВещевоеИмущество</name>
+    <name>ВещевоеИмущетво</name>
     <synonym>
       <key>ru</key>
-      <value>Вещевое имущество</value>
+      <value>Вещевое имущетво</value>
     </synonym>
-    <attributes uuid="6b5e0da8-88c7-44c6-a9b1-5c7e4cd3e81a">
+    <attributes uuid="fd3322e3-9410-475b-8f82-a1f727e1e6da">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -111,7 +127,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="01e9c9ad-f976-4c82-96f7-ee3b592ab609">
+    <attributes uuid="25d0a609-9779-4271-a35e-2fa1da053627">
       <name>Размер</name>
       <synonym>
         <key>ru</key>
@@ -125,7 +141,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="16ccb92b-17f9-4c26-9c34-bf958473cf54">
+    <attributes uuid="2663f1fd-b095-422b-aec3-3092c0cdeace">
       <name>Количество</name>
       <synonym>
         <key>ru</key>

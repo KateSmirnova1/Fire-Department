@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0405bf2-b021-4834-9490-0235d5ed320e">
+  <producedTypes>
+    <objectType typeId="b10e1306-40dc-4431-8f31-e6738cb1a436" valueTypeId="0b68be69-6f32-4b9d-ae19-e806da9f5a40"/>
+    <managerType typeId="31b04fc0-94f6-4140-b4d6-779fbc4850c3" valueTypeId="ea1b7236-df79-48c3-8e30-781baf9010b8"/>
+  </producedTypes>
+  <name>ТоварыНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
