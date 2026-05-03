@@ -17,4 +17,6 @@
   <content>Document.ВыдачаВещевогоИмущества</content>
   <content>Document.СписаниеВещевогоИмущества</content>
   <content>Document.Списание</content>
+  <content>Report.ТоварыНаСкладах</content>
+  <content>Report.ВещевоеИмуществоСотрудников</content>
 </mdclass:Subsystem>

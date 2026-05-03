@@ -97,6 +97,7 @@
   <enums>Enum.Пол</enums>
   <reports>Report.БоеваяГотовность</reports>
   <reports>Report.ТоварыНаСкладах</reports>
+  <reports>Report.ВещевоеИмуществоСотрудников</reports>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelВещевоеИмущество</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelБоеваяПодготовка</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelЛичныйСостав</dataProcessors>

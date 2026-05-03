@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0315bd13-311f-4397-923c-8e496f1974d1">
+  <producedTypes>
+    <objectType typeId="522e6ccd-d395-4e1a-9540-6ec5851c87c6" valueTypeId="67a8ba10-d39c-4f61-b1d2-c847047ce0b2"/>
+    <managerType typeId="c843fb79-50d2-41ab-9ca5-f61d38e26ed6" valueTypeId="cb358170-077c-4976-ae6c-bedea71825e1"/>
+  </producedTypes>
+  <name>ВещевоеИмуществоСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вещевое имущество сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВещевоеИмуществоСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7a4d3760-09bd-477e-8c42-ad914ae2948c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
