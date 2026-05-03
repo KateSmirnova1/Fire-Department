@@ -115,8 +115,9 @@
   <catalogs>Catalog.ГруппыДоступа</catalogs>
   <documents>Document.ПланСдачиНормативов</documents>
   <documents>Document.СдачаНормативов</documents>
-  <documents>Document.Поступления</documents>
-  <documents>Document.Выдача</documents>
+  <documents>Document.ВыдачаВещевогоИмущества</documents>
+  <documents>Document.СписаниеВещевогоИмущества</documents>
+  <documents>Document.Поступление</documents>
   <documents>Document.Списание</documents>
   <enums>Enum.ТипФизлиц</enums>
   <enums>Enum.Должности</enums>
@@ -124,15 +125,13 @@
   <enums>Enum.РазмерОдежды</enums>
   <enums>Enum.Роли</enums>
   <enums>Enum.Пол</enums>
-  <reports>Report.ОстаткиНаСкладе</reports>
-  <reports>Report.ВыданноеИмущество</reports>
-  <reports>Report.СписанноеИмущество</reports>
   <reports>Report.БоеваяГотовность</reports>
+  <reports>Report.ТоварыНаСкладах</reports>
+  <reports>Report.ВещевоеИмуществоСотрудников</reports>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelВещевоеИмущество</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelБоеваяПодготовка</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelЛичныйСостав</dataProcessors>
   <informationRegisters>InformationRegister.РезультатВыполненияНормативов</informationRegisters>
-  <informationRegisters>InformationRegister.Списание</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ОстаткиИмуществаСотрудников</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВещевоеИмуществоСотрудников</accumulationRegisters>
 </mdclass:Configuration>

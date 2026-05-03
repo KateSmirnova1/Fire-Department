@@ -12,14 +12,11 @@
   </picture>
   <content>Catalog.Склады</content>
   <content>Catalog.Номенклатура</content>
-  <content>Document.Выдача</content>
-  <content>AccumulationRegister.Остатки</content>
-  <content>Document.Поступления</content>
-  <content>Report.ОстаткиНаСкладе</content>
-  <content>Document.Списание</content>
-  <content>AccumulationRegister.ОстаткиИмуществаСотрудников</content>
-  <content>Report.ВыданноеИмущество</content>
-  <content>InformationRegister.Списание</content>
-  <content>Report.СписанноеИмущество</content>
   <content>DataProcessor.ЗагрузкаИзExcelВещевоеИмущество</content>
+  <content>Document.Поступление</content>
+  <content>Document.ВыдачаВещевогоИмущества</content>
+  <content>Document.СписаниеВещевогоИмущества</content>
+  <content>Document.Списание</content>
+  <content>Report.ТоварыНаСкладах</content>
+  <content>Report.ВещевоеИмуществоСотрудников</content>
 </mdclass:Subsystem>

@@ -7,6 +7,13 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
 			<field>Номенклатура</field>
 			<role>
@@ -24,14 +31,28 @@
 			<dataPath>КоличествоОстаток</dataPath>
 			<field>КоличествоОстаток</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОстаткиОстатки.Номенклатура КАК Номенклатура,
-	ОстаткиОстатки.Размер КАК Размер,
-	ОстаткиОстатки.КоличествоОстаток КАК КоличествоОстаток
+	ВещевоеИмуществоСотрудниковОстатки.ФизическоеЛицо КАК ФизическоеЛицо,
+	ВещевоеИмуществоСотрудниковОстатки.Номенклатура КАК Номенклатура,
+	ВещевоеИмуществоСотрудниковОстатки.Размер КАК Размер,
+	ВещевоеИмуществоСотрудниковОстатки.КоличествоОстаток КАК КоличествоОстаток
 ИЗ
-	РегистрНакопления.Остатки.Остатки КАК ОстаткиОстатки</query>
+	РегистрНакопления.ВещевоеИмуществоСотрудников.Остатки КАК ВещевоеИмуществоСотрудниковОстатки</query>
 	</dataSet>
+	<totalField>
+		<dataPath>КоличествоОстаток</dataPath>
+		<expression>Сумма(КоличествоОстаток)</expression>
+		<group>ФизическоеЛицо</group>
+	</totalField>
 	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
@@ -46,7 +67,6 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -64,13 +84,14 @@
 					<dcsset:field>КоличествоОстаток</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
-			<dcsset:outputParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>МакетОформления</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
-				</dcscor:item>
-			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ФизическоеЛицо</dcsset:field>
+						<dcsset:groupType>Hierarchy</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+				</dcsset:groupItems>
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 				</dcsset:order>
