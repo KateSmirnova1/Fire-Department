@@ -69,9 +69,38 @@
   <commonPictures>CommonPicture.Одежда</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <roles>Role.СистемныйАдминистратор</roles>
-  <roles>Role.НачальникКараула</roles>
-  <roles>Role.Инструктор</roles>
-  <roles>Role.Кладовщик</roles>
+  <roles>Role.ОрганизацииЧтение</roles>
+  <roles>Role.ОрганизацииЧтениеИЗапись</roles>
+  <roles>Role.ФизическиеЛицаЧтение</roles>
+  <roles>Role.ФизическиеЛицаЧтениеИЗапись</roles>
+  <roles>Role.ГруппаСотрудниковЧтение</roles>
+  <roles>Role.ГруппаСотрудниковЧтениеИЗапись</roles>
+  <roles>Role.ВозрастныеГруппыЧтение</roles>
+  <roles>Role.ВозрастныеГруппыЧтениеИЗапись</roles>
+  <roles>Role.НормативЧтение</roles>
+  <roles>Role.НормативЧтениеИЗапись</roles>
+  <roles>Role.ТипТренировкиЧтение</roles>
+  <roles>Role.ТипТренировкиЧтениеИЗапись</roles>
+  <roles>Role.МестоПроведенияТренировкиЧтение</roles>
+  <roles>Role.МестоПроведенияТренировкиЧтениеИЗапись</roles>
+  <roles>Role.СкладыЧтение</roles>
+  <roles>Role.СкладыЧтениеИЗапись</roles>
+  <roles>Role.НоменклатураЧтение</roles>
+  <roles>Role.НоменклатураЧтениеИЗапись</roles>
+  <roles>Role.ПользователиЧтение</roles>
+  <roles>Role.ПользователиЧтениеИЗапись</roles>
+  <roles>Role.ГруппыДоступаЧтение</roles>
+  <roles>Role.ГруппыДоступаЧтениеИЗапись</roles>
+  <roles>Role.ПланСдачиНормативовЧтение</roles>
+  <roles>Role.ПланСдачиНормативовЧтениеИЗапись</roles>
+  <roles>Role.СдачаНормативовЧтение</roles>
+  <roles>Role.СдачаНормативовЧтениеИЗапись</roles>
+  <roles>Role.ПоступленияЧтение</roles>
+  <roles>Role.ПоступленияЧтениеИЗапись</roles>
+  <roles>Role.ВыдачаЧтение</roles>
+  <roles>Role.ВыдачаЧтениеИЗапись</roles>
+  <roles>Role.СписаниеЧтение</roles>
+  <roles>Role.СписаниеЧтениеИЗапись</roles>
   <commonModules>CommonModule.УправлениеНормативами</commonModules>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
@@ -83,6 +112,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ГруппыДоступа</catalogs>
   <documents>Document.ПланСдачиНормативов</documents>
   <documents>Document.СдачаНормативов</documents>
   <documents>Document.Поступления</documents>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa8714e9-b042-4d30-acab-661de8e705d9">
+  <name>НормативЧтениеИЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норматив чтение и запись</value>
+  </synonym>
+</mdclass:Role>

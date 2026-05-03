@@ -19,25 +19,228 @@
       <value>Системный администратор</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="efc1d69e-892d-4a9d-b6c3-6ef19a611059">
-    <name>НачальникКараула</name>
+  <enumValues uuid="a8675a9c-dcbb-46dc-9597-f66b926f15a2">
+    <name>ОрганизацииЧтение</name>
     <synonym>
       <key>ru</key>
-      <value>Начальник караула</value>
+      <value>Организации чтение</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="3731b822-93f7-400e-be74-090137af3d11">
-    <name>Инструктор</name>
+  <enumValues uuid="45fcfea9-66a1-4580-aa53-623847d03db8">
+    <name>ОрганизацииЧтениеИЗапись</name>
     <synonym>
       <key>ru</key>
-      <value>Инструктор</value>
+      <value>Организации чтение и запись</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f4bea60f-728f-4a24-b33f-d16c1c69b376">
-    <name>Кладовщик</name>
+  <enumValues uuid="50aa66b3-94db-4025-9eec-c33dd8914b20">
+    <name>ФизическиеЛицаЧтение</name>
     <synonym>
       <key>ru</key>
-      <value>Кладовщик</value>
+      <value>Физические лица чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aecf31ad-3876-424f-ab18-9d9c6f3928d2">
+    <name>ФизическиеЛицаЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физические лица чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="736a3233-14c9-4b34-bc68-3973b2b2ef32">
+    <name>ГруппаСотрудниковЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа сотрудников чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98260dd6-dc28-4752-a395-49944a387fe8">
+    <name>ГруппаСотрудниковЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа сотрудников чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7078a12-21b5-4737-a06e-9b8206a5df5c">
+    <name>ВозрастныеГруппыЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастные группы чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5ad5343-e319-4ce4-9c72-bea6f80b1fb1">
+    <name>ВозрастныеГруппыЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастные группы чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1548a3e7-adde-43a9-b7e0-ac89396b20f4">
+    <name>НормативЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="852d13d1-e557-4a6f-9f0d-fd293be74aae">
+    <name>НормативЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1ff5d3e-5d7f-44e7-a137-67bde046625d">
+    <name>ТипТренировкиЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тренировки чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c507b73a-e5e0-479a-9a9d-1189f5bd39cc">
+    <name>ТипТренировкиЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип тренировки чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="509da92e-08dd-451a-9209-2562f1aea3e4">
+    <name>МестоПроведенияТренировкиЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место проведения тренировки чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3e28c61-269f-4eae-a4c4-d316b2e93049">
+    <name>МестоПроведенияТренировкиЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место проведения тренировки чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fefdb485-c1e3-4cb9-b0af-5d416bac9646">
+    <name>СкладыЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05ed0fff-3501-4d5c-805f-53e9c0de9397">
+    <name>СкладыЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aad503ae-f09a-46c9-b0be-7d2a600ba12e">
+    <name>НоменклатураЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f150eb1-06f7-4d27-a915-dcd707898f00">
+    <name>НоменклатураЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96afa844-eaf0-4601-9557-38e0f3d53d55">
+    <name>ПользователиЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d52bbd95-96b8-4fc2-aae5-456f4a813c70">
+    <name>ПользователиЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03451cd5-f4b2-43b4-88df-76cb495d987c">
+    <name>ГруппыДоступаЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доступа чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef391077-e5a6-41b0-a3f5-ed0dbf679b56">
+    <name>ГруппыДоступаЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доступа чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40cd59dc-3463-4d53-84b3-054c440274b4">
+    <name>ПланСдачиНормативовЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>План сдачи нормативов чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="126aef15-7447-4494-91cf-ddaffca34d17">
+    <name>ПланСдачиНормативовЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>План сдачи нормативов чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a163e75-0cad-4f5c-973c-c0838e21a766">
+    <name>СдачаНормативовЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдача нормативов чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11b37d66-a463-482b-8957-c09d067b40ce">
+    <name>СдачаНормативовЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдача нормативов чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b03785ba-99db-4332-9427-d74eb87c63a9">
+    <name>ПоступленияЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступления чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be1e41f8-ad69-412e-8907-8c19e8a91edd">
+    <name>ПоступленияЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступления чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57dd83f0-3626-44d6-9464-0afa9c953d15">
+    <name>ВыдачаЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0a363d5-2404-4129-93e9-46334d3831f5">
+    <name>ВыдачаЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df5a919a-c62a-484d-b0d7-3b6ad191cfac">
+    <name>СписаниеЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87d46ffd-55d4-4b81-aee6-4631d9e0a34e">
+    <name>СписаниеЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание чтение и запись</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
