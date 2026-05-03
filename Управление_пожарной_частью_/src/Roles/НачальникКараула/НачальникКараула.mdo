@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b19e3b18-3b81-4930-b9f3-87b3df8cdd6e">
-  <name>НачальникКараула</name>
-  <synonym>
-    <key>ru</key>
-    <value>Начальник караула</value>
-  </synonym>
-</mdclass:Role>

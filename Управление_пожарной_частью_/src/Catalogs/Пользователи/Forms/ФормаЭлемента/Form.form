@@ -26,13 +26,6 @@
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>КодПанельДействийВыделенныхСтрок</name>
-      <id>4</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
@@ -52,6 +45,10 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>ФИО</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -75,13 +72,6 @@
       <id>6</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>НаименованиеПанельДействийВыделенныхСтрок</name>
-      <id>8</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
@@ -124,13 +114,6 @@
       <id>50</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>ЛогинПанельДействийВыделенныхСтрок</name>
-      <id>52</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
@@ -173,13 +156,6 @@
       <id>10</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>ПарольПанельДействийВыделенныхСтрок</name>
-      <id>12</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
@@ -197,9 +173,53 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>ГруппаДоступа</name>
+    <id>53</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ГруппаДоступа</segments>
+    </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ГруппаДоступаПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ГруппаДоступаРасширеннаяПодсказка</name>
+      <id>55</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ГруппаДоступаКонтекстноеМеню</name>
+      <id>54</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>УникальныйИдентификатор</name>
     <id>45</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -222,13 +242,6 @@
       <id>46</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>УникальныйИдентификаторПанельДействийВыделенныхСтрок</name>
-      <id>48</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <type>LabelField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
@@ -277,13 +290,6 @@
         <id>35</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>РолиНомерСтрокиПанельДействийВыделенныхСтрок</name>
-        <id>37</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
       <type>LabelField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -320,13 +326,6 @@
         <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>РолиРольПанельДействийВыделенныхСтрок</name>
-        <id>41</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -435,13 +434,6 @@
       <id>14</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>РолиПанельДействийВыделенныхСтрок</name>
-      <id>26</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -473,6 +465,14 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>

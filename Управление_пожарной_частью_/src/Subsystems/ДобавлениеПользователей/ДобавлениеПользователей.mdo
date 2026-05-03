@@ -11,4 +11,5 @@
     <picture>CommonPicture.ОбщаяКартинка1</picture>
   </picture>
   <content>Catalog.Пользователи</content>
+  <content>Catalog.ГруппыДоступа</content>
 </mdclass:Subsystem>
