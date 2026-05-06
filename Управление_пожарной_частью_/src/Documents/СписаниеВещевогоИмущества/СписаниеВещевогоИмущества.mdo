@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписаниеВещевогоИмущества.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ВещевоеИмуществоСотрудников</registerRecords>
   <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -95,7 +96,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -103,15 +104,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="7ed12230-75e7-450e-a0ff-423020161f34">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83b1d772-d326-472e-b7b9-a8cd0b61f010">
+    <name>ВещевоеИмущество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вещевое имущество</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="78aaeda2-8798-4113-8556-f6446e40ca7f">
     <producedTypes>
       <objectType typeId="64f1d3d5-9d55-45e6-846d-d9c0d4c7cc5f" valueTypeId="5e7d677a-fc2d-44d2-9f6b-a2079f727a46"/>
       <rowType typeId="380e2220-f900-4f81-a3fe-520c2042ba18" valueTypeId="67fb29fb-e7b5-4c9a-b4ae-c2871e680ce9"/>
     </producedTypes>
-    <name>ВещевоеИмущетво</name>
+    <name>ВещевоеИмущество</name>
     <synonym>
       <key>ru</key>
-      <value>Вещевое имущетво</value>
+      <value>Вещевое имущество</value>
     </synonym>
     <attributes uuid="ebac52c0-6361-45a1-b785-b587818488da">
       <name>Номенклатура</name>

@@ -30,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="9e362968-4b00-4fde-868a-dad0015ffd35">
-      <name>ПСЧ_13</name>
+      <name>Основная</name>
       <description>ПСЧ № 13</description>
       <code xsi:type="core:StringValue">
         <value>000000001</value>
