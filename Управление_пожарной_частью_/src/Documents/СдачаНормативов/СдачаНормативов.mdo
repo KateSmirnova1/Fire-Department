@@ -24,7 +24,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.СдачаНормативов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.СдачаНормативов.Form.ФормаДокумента85</defaultObjectForm>
+  <auxiliaryObjectForm>Document.СдачаНормативов.Form.ФормаДокумента85</auxiliaryObjectForm>
   <registerRecords>InformationRegister.РезультатВыполненияНормативов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -39,7 +40,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Организации.Основная</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -126,6 +129,16 @@
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bc7314a7-3d40-4a10-ab94-e65109aa5893">
+    <name>ФормаДокумента85</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа85</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+    <useInInterfaceCompatibilityMode>Version85</useInInterfaceCompatibilityMode>
   </forms>
   <tabularSections uuid="b4925c92-1385-4d52-a0c0-292f1cf87ec5">
     <producedTypes>
