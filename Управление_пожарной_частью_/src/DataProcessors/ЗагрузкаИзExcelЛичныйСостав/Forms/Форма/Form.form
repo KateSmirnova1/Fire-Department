@@ -26,6 +26,13 @@
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>СсылкаНаФайлПанельДействийВыделенныхСтрок</name>
+      <id>9</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>

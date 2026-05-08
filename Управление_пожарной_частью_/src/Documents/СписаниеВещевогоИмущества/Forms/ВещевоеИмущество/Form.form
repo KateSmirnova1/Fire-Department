@@ -415,6 +415,7 @@
           <types>Date</types>
           <dateQualifiers/>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
       </parameters>
       <parameters>
         <name>Ссылка</name>
@@ -429,6 +430,7 @@
         <valueType>
           <types>CatalogRef.ФизическиеЛица</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>

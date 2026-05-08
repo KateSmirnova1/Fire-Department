@@ -26,6 +26,13 @@
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>СсылкаНаФайлПанельДействийВыделенныхСтрок</name>
+      <id>13</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
@@ -93,7 +100,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.ЗагрузитьВыдачуВещевогоОбеспечения</commandName>
+    <commandName>Form.Command.ЗагрузитьВыдачуВещевогоИмущества</commandName>
     <buttonImportance>Normal</buttonImportance>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
@@ -223,15 +230,15 @@
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
-    <name>ЗагрузитьВыдачуВещевогоОбеспечения</name>
+    <name>ЗагрузитьВыдачуВещевогоИмущества</name>
     <title>
       <key>ru</key>
-      <value>Загрузить выдачу вещевого обеспечения</value>
+      <value>Загрузить выдачу вещевого имущества</value>
     </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить выдачу вещевого обеспечения</value>
+      <value>Загрузить выдачу вещевого имущества</value>
     </toolTip>
     <use>
       <common>true</common>
