@@ -236,6 +236,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d3ed216e-ddd6-4638-8629-82016ce8e2c9">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="0d43f8fc-592b-43b3-8af8-45b87432dc56">
     <producedTypes>
       <objectType typeId="0e470385-b666-41f0-96d4-c2cdf0878192" valueTypeId="e8bc8382-9b61-49ee-94d7-c902ca0e2755"/>
