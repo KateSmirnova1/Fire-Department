@@ -355,7 +355,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВещевоеИмущество</segments>
+      <segments>Объект.ВещевоеИмущетво</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
@@ -367,7 +367,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВещевоеИмущество.LineNumber</segments>
+        <segments>Объект.ВещевоеИмущетво.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВещевоеИмущетвоНомерСтрокиРасширеннаяПодсказка</name>
@@ -410,7 +410,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВещевоеИмущество.Номенклатура</segments>
+        <segments>Объект.ВещевоеИмущетво.Номенклатура</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВещевоеИмущетвоНоменклатураРасширеннаяПодсказка</name>
@@ -459,7 +459,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВещевоеИмущество.Размер</segments>
+        <segments>Объект.ВещевоеИмущетво.Размер</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВещевоеИмущетвоРазмерРасширеннаяПодсказка</name>
@@ -508,7 +508,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВещевоеИмущество.Количество</segments>
+        <segments>Объект.ВещевоеИмущетво.Количество</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВещевоеИмущетвоКоличествоРасширеннаяПодсказка</name>
