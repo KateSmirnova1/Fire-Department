@@ -26,6 +26,13 @@
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>КодПанельДействийВыделенныхСтрок</name>
+      <id>56</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
@@ -72,6 +79,13 @@
       <id>6</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>НаименованиеПанельДействийВыделенныхСтрок</name>
+      <id>57</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
@@ -114,6 +128,13 @@
       <id>50</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>ЛогинПанельДействийВыделенныхСтрок</name>
+      <id>58</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
@@ -156,6 +177,13 @@
       <id>10</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>ПарольПанельДействийВыделенныхСтрок</name>
+      <id>59</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
@@ -202,6 +230,13 @@
       <id>54</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>ГруппаДоступаПанельДействийВыделенныхСтрок</name>
+      <id>60</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
@@ -242,6 +277,13 @@
       <id>46</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>УникальныйИдентификаторПанельДействийВыделенныхСтрок</name>
+      <id>61</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <type>LabelField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
@@ -290,6 +332,13 @@
         <id>35</id>
         <autoFill>true</autoFill>
       </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>РолиНомерСтрокиПанельДействийВыделенныхСтрок</name>
+        <id>63</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
       <type>LabelField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -326,6 +375,13 @@
         <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>РолиРольПанельДействийВыделенныхСтрок</name>
+        <id>64</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
       <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -434,6 +490,13 @@
       <id>14</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <selectedItemsActionsPanel>
+      <name>РолиПанельДействийВыделенныхСтрок</name>
+      <id>62</id>
+      <fillStdCommands>true</fillStdCommands>
+      <horizontalAlign>Left</horizontalAlign>
+      <appearanceMode>CommandBar</appearanceMode>
+    </selectedItemsActionsPanel>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>

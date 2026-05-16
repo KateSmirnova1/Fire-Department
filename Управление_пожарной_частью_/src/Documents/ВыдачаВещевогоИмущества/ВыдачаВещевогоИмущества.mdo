@@ -118,10 +118,10 @@
       <objectType typeId="dd9f56ad-23ae-43d3-91f1-523e6fc69a09" valueTypeId="ded4dfcd-26bc-4ae6-a50e-ca46305b6611"/>
       <rowType typeId="12eb727d-1897-4401-bec7-d2d25e24e081" valueTypeId="4e6a5f6c-9721-483f-8fd8-628182a22f8a"/>
     </producedTypes>
-    <name>ВещевоеИмущетво</name>
+    <name>ВещевоеИмущество</name>
     <synonym>
       <key>ru</key>
-      <value>Вещевое имущетво</value>
+      <value>Вещевое имущество</value>
     </synonym>
     <attributes uuid="fd3322e3-9410-475b-8f82-a1f727e1e6da">
       <name>Номенклатура</name>
