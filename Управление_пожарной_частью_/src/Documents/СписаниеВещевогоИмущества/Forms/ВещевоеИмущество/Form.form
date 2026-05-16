@@ -34,7 +34,6 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -78,13 +77,6 @@
         <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>НоменклатураПанельДействийВыделенныхСтрок</name>
-        <id>28</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
       <type>InputField</type>
       <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
@@ -126,13 +118,6 @@
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>РазмерПанельДействийВыделенныхСтрок</name>
-        <id>32</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
       <type>LabelField</type>
       <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
@@ -169,13 +154,6 @@
         <id>42</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>КоличествоПанельДействийВыделенныхСтрок</name>
-        <id>44</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
       <type>LabelField</type>
       <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
@@ -281,13 +259,6 @@
       <id>4</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>СписокПанельДействийВыделенныхСтрок</name>
-      <id>7</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
