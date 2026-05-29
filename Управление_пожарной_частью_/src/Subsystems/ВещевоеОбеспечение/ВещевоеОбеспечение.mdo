@@ -13,10 +13,13 @@
   <content>Catalog.Склады</content>
   <content>Catalog.Номенклатура</content>
   <content>DataProcessor.ЗагрузкаИзExcelВещевоеИмущество</content>
-  <content>Document.ПоступлениеНаСклад</content>
   <content>Document.ВыдачаВещевогоИмущества</content>
   <content>Document.СписаниеВещевогоИмущества</content>
+  <content>Document.ПоступлениеНаСклад</content>
   <content>Document.СписаниеСоСклада</content>
+  <content>AccumulationRegister.НоменклатураНаСкладах</content>
+  <content>AccumulationRegister.НоменклатураСотрудников</content>
   <content>Report.ТоварыНаСкладах</content>
   <content>Report.ВещевоеИмуществоСотрудников</content>
+  <content>Report.СписаниеИмущества</content>
 </mdclass:Subsystem>
