@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c38cb20-c266-48bf-9e21-641cffe642ca">
+  <producedTypes>
+    <objectType typeId="659ce5c7-a4ce-4720-b5c8-b3bbb2bfd4cd" valueTypeId="ae43412c-8115-4773-82ca-04c786bb3864"/>
+    <managerType typeId="d00d0b17-658a-4b0b-98bd-705319a68564" valueTypeId="9770e857-15ae-47d6-bda8-0645aa46235e"/>
+  </producedTypes>
+  <name>СписаниеИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание имущества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СписаниеИмущества.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="963576f8-a364-4448-88e2-763c5fbe86aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -48,6 +48,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="63bdba1e-406a-49a1-a582-fa44bdee18ab">
     <name>Русский</name>
@@ -126,12 +127,14 @@
   <enums>Enum.Роли</enums>
   <enums>Enum.Пол</enums>
   <reports>Report.БоеваяГотовность</reports>
-  <reports>Report.ТоварыНаСкладах</reports>
+  <reports>Report.СписаниеИмущества</reports>
   <reports>Report.ВещевоеИмуществоСотрудников</reports>
+  <reports>Report.ТоварыНаСкладах</reports>
+  <reports>Report.СтатистикаСотрудника</reports>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelВещевоеИмущество</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelБоеваяПодготовка</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаИзExcelЛичныйСостав</dataProcessors>
   <informationRegisters>InformationRegister.РезультатВыполненияНормативов</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ВещевоеИмуществоСотрудников</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НоменклатураНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НоменклатураСотрудников</accumulationRegisters>
 </mdclass:Configuration>

@@ -34,7 +34,7 @@
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>НомерПанельДействийВыделенныхСтрок</name>
-          <id>6</id>
+          <id>103</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
@@ -83,7 +83,7 @@
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>ДатаПанельДействийВыделенныхСтрок</name>
-          <id>10</id>
+          <id>104</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
@@ -132,7 +132,7 @@
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>СкладПанельДействийВыделенныхСтрок</name>
-          <id>18</id>
+          <id>105</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
@@ -215,7 +215,7 @@
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>ФизическоеЛицоПанельДействийВыделенныхСтрок</name>
-          <id>22</id>
+          <id>106</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
@@ -264,7 +264,7 @@
         </contextMenu>
         <selectedItemsActionsPanel>
           <name>ОрганизацияПанельДействийВыделенныхСтрок</name>
-          <id>14</id>
+          <id>107</id>
           <fillStdCommands>true</fillStdCommands>
           <horizontalAlign>Left</horizontalAlign>
           <appearanceMode>CommandBar</appearanceMode>
@@ -387,7 +387,7 @@
       </contextMenu>
       <selectedItemsActionsPanel>
         <name>ВещевоеИмуществоНомерСтрокиПанельДействийВыделенныхСтрок</name>
-        <id>48</id>
+        <id>108</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>
@@ -430,7 +430,7 @@
       </contextMenu>
       <selectedItemsActionsPanel>
         <name>ВещевоеИмуществоНоменклатураПанельДействийВыделенныхСтрок</name>
-        <id>52</id>
+        <id>109</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>
@@ -479,7 +479,7 @@
       </contextMenu>
       <selectedItemsActionsPanel>
         <name>ВещевоеИмуществоРазмерПанельДействийВыделенныхСтрок</name>
-        <id>56</id>
+        <id>110</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>
@@ -528,7 +528,7 @@
       </contextMenu>
       <selectedItemsActionsPanel>
         <name>ВещевоеИмуществоКоличествоПанельДействийВыделенныхСтрок</name>
-        <id>60</id>
+        <id>111</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>
@@ -549,36 +549,104 @@
         <textSize>Normal</textSize>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ВещевоеИмуществоОстатокСрока</name>
+      <id>78</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ВещевоеИмуществоОстатокСрокаРасширеннаяПодсказка</name>
+        <id>80</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВещевоеИмуществоОстатокСрокаКонтекстноеМеню</name>
+        <id>79</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>ВещевоеИмуществоОстатокСрокаПанельДействийВыделенныхСтрок</name>
+        <id>112</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ВещевоеИмуществоПричина</name>
+      <id>82</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ВещевоеИмущество.Причина</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ВещевоеИмуществоПричинаРасширеннаяПодсказка</name>
+        <id>84</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВещевоеИмуществоПричинаКонтекстноеМеню</name>
+        <id>83</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>ВещевоеИмуществоПричинаПанельДействийВыделенныхСтрок</name>
+        <id>113</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
     <autoCommandBar>
       <name>ВещевоеИмуществоКоманднаяПанель</name>
       <id>33</id>
-      <items xsi:type="form:Button">
-        <name>ВещевоеИмуществоПодобратьИмущество</name>
-        <id>61</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ВещевоеИмуществоПодобратьИмуществоРасширеннаяПодсказка</name>
-          <id>62</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.ПодобратьИмущество</commandName>
-        <buttonImportance>Normal</buttonImportance>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-        <showAsCard>true</showAsCard>
-      </items>
       <items xsi:type="form:Button">
         <name>ВещевоеИмуществоУдалитьСтроку</name>
         <id>63</id>
@@ -598,6 +666,33 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.УдалитьСтроку</commandName>
+        <buttonImportance>Normal</buttonImportance>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <showAsCard>true</showAsCard>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ПодобратьИмущество</name>
+        <id>61</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПодобратьИмуществоРасширеннаяПодсказка</name>
+          <id>62</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПодобратьИмущество</commandName>
         <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
@@ -697,7 +792,7 @@
     </contextMenu>
     <selectedItemsActionsPanel>
       <name>ВещевоеИмуществоПанельДействийВыделенныхСтрок</name>
-      <id>35</id>
+      <id>115</id>
       <fillStdCommands>true</fillStdCommands>
       <horizontalAlign>Left</horizontalAlign>
       <appearanceMode>CommandBar</appearanceMode>
@@ -758,7 +853,7 @@
       </contextMenu>
       <selectedItemsActionsPanel>
         <name>ОтветственныйПанельДействийВыделенныхСтрок</name>
-        <id>30</id>
+        <id>118</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>
@@ -807,7 +902,7 @@
       </contextMenu>
       <selectedItemsActionsPanel>
         <name>КомментарийПанельДействийВыделенныхСтрок</name>
-        <id>26</id>
+        <id>119</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>

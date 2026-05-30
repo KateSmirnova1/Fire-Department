@@ -18,4 +18,5 @@
   <content>InformationRegister.РезультатВыполненияНормативов</content>
   <content>Report.БоеваяГотовность</content>
   <content>DataProcessor.ЗагрузкаИзExcelБоеваяПодготовка</content>
+  <content>Report.СтатистикаСотрудника</content>
 </mdclass:Subsystem>

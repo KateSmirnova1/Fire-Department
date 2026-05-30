@@ -42,11 +42,4 @@
 			<value>true</value>
 		</right>
 	</object>
-	<object>
-		<name>Document.СписаниеСоСклада</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
 </Rights>

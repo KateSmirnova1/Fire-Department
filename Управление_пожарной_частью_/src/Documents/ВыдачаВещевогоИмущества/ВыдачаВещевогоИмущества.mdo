@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84312302-78f1-440d-9399-2ac18326f9d6">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24fd74e1-4a8d-4fc1-8393-ded3bc5df1c5">
   <producedTypes>
-    <objectType typeId="f1cfd984-aba0-4291-b593-1eaf89bd0118" valueTypeId="8a84284e-d23a-4c56-ac8d-0c6db4db2914"/>
-    <refType typeId="91475027-3864-43b4-9f2e-296177ee67f1" valueTypeId="cacc03fd-6be3-4421-bce3-791dfc474a88"/>
-    <selectionType typeId="630b8fbc-49aa-4c18-a6a6-13d7e8587cd5" valueTypeId="2595fb60-b199-4294-9b79-666c4f3078fe"/>
-    <listType typeId="780caceb-9c3d-4d56-a7b6-bf43ca22cb70" valueTypeId="8ce2c80c-382f-4617-83a0-afb27c03607d"/>
-    <managerType typeId="930c74cd-6c43-46f6-800d-8ed61f6fd4e8" valueTypeId="a80b6939-d7d0-43ba-a4a7-48fed0b5bb60"/>
+    <objectType typeId="1280d728-2ee5-4877-9084-85ae064440d9" valueTypeId="a70cd681-0a8a-4259-aa6f-8aafaac43331"/>
+    <refType typeId="f58824af-fbe2-4112-9557-4c78b0904921" valueTypeId="f1438286-0f4d-41b7-8ee5-252f65d54772"/>
+    <selectionType typeId="dd55fbb7-fc04-493f-bbf6-32dec7bc87e7" valueTypeId="3d864693-9e14-473a-8726-38b58dac3048"/>
+    <listType typeId="023f3e65-361a-46f7-bb38-5885aa17aad5" valueTypeId="be6dcd88-980f-4561-b24b-ee3fd2d7bb00"/>
+    <managerType typeId="82a3def8-ab7e-4543-a588-f2c4093fd0f2" valueTypeId="d1e5dbdb-f219-4763-bd18-269cfbcbabae"/>
   </producedTypes>
   <name>ВыдачаВещевогоИмущества</name>
   <synonym>
@@ -15,6 +15,47 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВыдачаВещевогоИмущества.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -24,11 +65,11 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВыдачаВещевогоИмущества.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ВещевоеИмуществоСотрудников</registerRecords>
-  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <registerRecords>AccumulationRegister.НоменклатураСотрудников</registerRecords>
+  <registerRecords>AccumulationRegister.НоменклатураНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="a0c3e079-ea94-4508-aacf-89c077ecc439">
+  <attributes uuid="8bc951c1-145c-4723-8d77-99f5d38bc38e">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -43,7 +84,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="50acd147-75b7-4dab-a648-e53c97d5462f">
+  <attributes uuid="2ccb5b96-3fd0-4729-9c0f-00a89f811826">
     <name>Склад</name>
     <synonym>
       <key>ru</key>
@@ -58,7 +99,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ded1f4be-df62-4561-9472-b800bd2a0825">
+  <attributes uuid="2ef22030-f625-419c-95bd-43f5406c652b">
     <name>ФизическоеЛицо</name>
     <synonym>
       <key>ru</key>
@@ -73,7 +114,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1728f235-7b4e-4186-a0b2-4c8a795f6ed2">
+  <attributes uuid="da335135-d738-4c24-a043-fc7a2a0c9851">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -89,7 +130,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1e9b5bd7-d86b-4323-871b-48d847df1382">
+  <attributes uuid="80ec3ccf-f26a-4edd-92fd-e2decba39363">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -104,7 +145,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="cd84e542-2ebe-4411-acca-5486963a6b98">
+  <forms uuid="18aca23a-07ca-4c81-8111-1fe3ad415fda">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -113,17 +154,25 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="cdb57126-6ecd-42b0-80b5-db23c8d78b52">
+  <tabularSections uuid="cf906ad2-2124-4550-b407-f47573fd0e75">
     <producedTypes>
-      <objectType typeId="dd9f56ad-23ae-43d3-91f1-523e6fc69a09" valueTypeId="ded4dfcd-26bc-4ae6-a50e-ca46305b6611"/>
-      <rowType typeId="12eb727d-1897-4401-bec7-d2d25e24e081" valueTypeId="4e6a5f6c-9721-483f-8fd8-628182a22f8a"/>
+      <objectType typeId="e8c715e7-1266-40b1-93be-a1c766400497" valueTypeId="b733650d-66de-45b1-a022-a08ede12c0d5"/>
+      <rowType typeId="3c7ad86a-227e-4318-9dba-b9c2f0fb2a82" valueTypeId="39db9d7b-3ec9-4568-b63f-8301ecdc8e0b"/>
     </producedTypes>
     <name>ВещевоеИмущество</name>
     <synonym>
       <key>ru</key>
       <value>Вещевое имущество</value>
     </synonym>
-    <attributes uuid="fd3322e3-9410-475b-8f82-a1f727e1e6da">
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7b683ac0-1db6-4680-88b4-40cb45f59cc1">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -137,7 +186,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="25d0a609-9779-4271-a35e-2fa1da053627">
+    <attributes uuid="51989dc5-1c0f-43ae-9e2d-d20592e2091b">
       <name>Размер</name>
       <synonym>
         <key>ru</key>
@@ -151,7 +200,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="2663f1fd-b095-422b-aec3-3092c0cdeace">
+    <attributes uuid="23c1a404-daa8-4fff-8805-8f6fecf139de">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -166,6 +215,24 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="182bd17d-2bff-4e9f-b7b3-b384b9686c62">
+      <name>ПланДатаСписания</name>
+      <synonym>
+        <key>ru</key>
+        <value>План. дата списания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
