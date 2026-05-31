@@ -96,12 +96,14 @@
   <roles>Role.ПланСдачиНормативовЧтениеИЗапись</roles>
   <roles>Role.СдачаНормативовЧтение</roles>
   <roles>Role.СдачаНормативовЧтениеИЗапись</roles>
-  <roles>Role.ПоступленияЧтение</roles>
-  <roles>Role.ПоступленияЧтениеИЗапись</roles>
-  <roles>Role.ВыдачаЧтение</roles>
-  <roles>Role.ВыдачаЧтениеИЗапись</roles>
-  <roles>Role.СписаниеЧтение</roles>
-  <roles>Role.СписаниеЧтениеИЗапись</roles>
+  <roles>Role.ПоступлениеНаСкладЧтение</roles>
+  <roles>Role.ПоступлениеНаСкладЧтениеИЗапись</roles>
+  <roles>Role.ВыдачаВещевогоИмуществаЧтение</roles>
+  <roles>Role.ВыдачаВещевогоИмуществаЧтениеИЗапись</roles>
+  <roles>Role.СписаниеВещевогоИмуществаЧтение</roles>
+  <roles>Role.СписаниеВещевогоИмуществаЧтениеИЗапись</roles>
+  <roles>Role.СписаниеСоСкладаЧтение</roles>
+  <roles>Role.СписаниеСоСкладаЧтениеИЗапись</roles>
   <commonModules>CommonModule.УправлениеНормативами</commonModules>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>

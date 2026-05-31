@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8381f104-dfd0-4251-a084-9a18d296e810">
+  <name>ВыдачаВещевогоИмуществаЧтениеИЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача вещевого имущества чтение и запись</value>
+  </synonym>
+</mdclass:Role>

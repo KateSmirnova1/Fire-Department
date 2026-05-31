@@ -12,18 +12,18 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="28663d75-e12f-42af-a99d-95fd833d9e11">
+  <enumValues uuid="aa65f535-2894-424a-937b-12ccd4470379">
     <name>СистемныйАдминистратор</name>
     <synonym>
       <key>ru</key>
       <value>Системный администратор</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="a8675a9c-dcbb-46dc-9597-f66b926f15a2">
-    <name>ОрганизацииЧтение</name>
+  <enumValues uuid="b668d6ec-c56d-4979-bccc-8c23082809af">
+    <name>ОрганизацияЧтение</name>
     <synonym>
       <key>ru</key>
-      <value>Организации чтение</value>
+      <value>Организация чтение</value>
     </synonym>
   </enumValues>
   <enumValues uuid="45fcfea9-66a1-4580-aa53-623847d03db8">
@@ -201,46 +201,60 @@
       <value>Сдача нормативов чтение и запись</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="b03785ba-99db-4332-9427-d74eb87c63a9">
-    <name>ПоступленияЧтение</name>
+  <enumValues uuid="595b3f6e-7d9f-4d09-830f-afb029e67ea3">
+    <name>ПоступлениеНаСкладЧтение</name>
     <synonym>
       <key>ru</key>
-      <value>Поступления чтение</value>
+      <value>Поступление на склад чтение</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="be1e41f8-ad69-412e-8907-8c19e8a91edd">
-    <name>ПоступленияЧтениеИЗапись</name>
+  <enumValues uuid="b322a04e-cfa2-44db-b907-29f805f7503d">
+    <name>ПоступлениеНаСкладЧтениеИЗапись</name>
     <synonym>
       <key>ru</key>
-      <value>Поступления чтение и запись</value>
+      <value>Поступление на склад чтение и запись</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="57dd83f0-3626-44d6-9464-0afa9c953d15">
-    <name>ВыдачаЧтение</name>
+  <enumValues uuid="c7d4c205-0ee8-459a-9d04-3d349c87d8fd">
+    <name>ВыдачаВещевогоИмуществаЧтение</name>
     <synonym>
       <key>ru</key>
-      <value>Выдача чтение</value>
+      <value>Выдача вещевого имущества чтение</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f0a363d5-2404-4129-93e9-46334d3831f5">
-    <name>ВыдачаЧтениеИЗапись</name>
+  <enumValues uuid="5538b1c0-160e-4206-9c74-bc6a132dc222">
+    <name>ВыдачаВещевогоИмуществаЧтениеИЗапись</name>
     <synonym>
       <key>ru</key>
-      <value>Выдача чтение и запись</value>
+      <value>Выдача вещевого имущества чтение и запись</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="df5a919a-c62a-484d-b0d7-3b6ad191cfac">
-    <name>СписаниеЧтение</name>
+  <enumValues uuid="efc94eff-303d-4605-81ce-7b4cf52257b1">
+    <name>СписаниеВещевогоИмуществаЧтение</name>
     <synonym>
       <key>ru</key>
-      <value>Списание чтение</value>
+      <value>Списание вещевого имущества чтение</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="87d46ffd-55d4-4b81-aee6-4631d9e0a34e">
-    <name>СписаниеЧтениеИЗапись</name>
+  <enumValues uuid="8b2fb8b7-4f7c-4ade-9c0b-63451bf586e4">
+    <name>СписаниеВещевогоИмуществаЧтениеИЗапись</name>
     <synonym>
       <key>ru</key>
-      <value>Списание чтение и запись</value>
+      <value>Списание вещевого имущества чтение и запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79ec20eb-789d-4c9d-b07c-4028c413f5c0">
+    <name>СписаниеСоСкладаЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание со склада чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be407e64-8e4d-46fd-9515-3e67ac92e1a2">
+    <name>СписаниеСоСкладаЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание со склада чтение и запись</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

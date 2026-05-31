@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0e02b72-39c6-4fc8-9b55-1f73ce4681ce">
+  <name>СписаниеВещевогоИмуществаЧтениеИЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание вещевого имущества чтение и запись</value>
+  </synonym>
+</mdclass:Role>
