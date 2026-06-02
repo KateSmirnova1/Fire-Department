@@ -204,4 +204,16 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="4b9501fd-55c1-4d1f-9b67-2ee891b63196">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="01c85230-3303-430e-bce1-37b983c58ce6">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПоступлениеНаСклад</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

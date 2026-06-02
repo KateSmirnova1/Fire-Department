@@ -250,4 +250,16 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="f29f12f6-03c6-446b-9d15-e43fc5a3c7cf">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="a537cab5-ed12-4ce3-8a8b-84b7b1742127">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписаниеСоСклада</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

@@ -191,4 +191,16 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="6ddf197e-fa29-4d52-a63b-c86eec1e76d9">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="d8bf833f-8f0e-4ff6-aea3-c35f152d7321">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПланСдачиНормативов</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
