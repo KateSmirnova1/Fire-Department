@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f9c543-7d42-44fe-b33f-734bbaa0fc0c">
+  <name>ОтчетСписаниеИмуществаПросмотрИИспользование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет списание имущества просмотр и использование</value>
+  </synonym>
+</mdclass:Role>

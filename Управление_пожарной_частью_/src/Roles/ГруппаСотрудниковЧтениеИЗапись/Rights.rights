@@ -72,5 +72,9 @@
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
 	</object>
 </Rights>

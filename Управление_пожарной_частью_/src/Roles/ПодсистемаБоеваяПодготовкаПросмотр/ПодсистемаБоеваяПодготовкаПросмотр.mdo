@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ed8a03c-a4c3-4182-8e08-c2c1e711326a">
+  <name>ПодсистемаБоеваяПодготовкаПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема боевая подготовка просмотр</value>
+  </synonym>
+</mdclass:Role>
