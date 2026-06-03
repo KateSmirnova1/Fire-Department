@@ -533,9 +533,9 @@
 		<endRow>15</endRow>
 		<endRowOffset>38</endRowOffset>
 		<beginColumn>1</beginColumn>
-		<beginColumnOffset>205</beginColumnOffset>
+		<beginColumnOffset>213</beginColumnOffset>
 		<endColumn>1</endColumn>
-		<endColumnOffset>238</endColumnOffset>
+		<endColumnOffset>246</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
 		<zOrder>2</zOrder>
