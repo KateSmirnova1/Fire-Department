@@ -244,4 +244,16 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="dedcba7f-48ab-478e-ac2e-47c01a82b5e6">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="fe2367ea-93e4-40ae-9738-a7f80ee88823">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписаниеВещевогоИмущества</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

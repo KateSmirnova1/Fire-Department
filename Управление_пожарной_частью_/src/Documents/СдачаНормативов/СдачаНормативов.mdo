@@ -205,4 +205,16 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="e46cc46b-c659-439e-9063-c6c3d15c5f3f">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="d20e33bd-ba78-4a59-b0dc-a438c2d0c0e3">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СдачаНормативов</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
