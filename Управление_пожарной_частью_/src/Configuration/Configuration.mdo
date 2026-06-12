@@ -35,15 +35,6 @@
     <key>ru</key>
     <value>Автоматизация процессов в пожарной части.</value>
   </briefInformation>
-  <detailedInformation>
-    <key>ru</key>
-    <value>Решает задачи: 1)	Учет личного состава, графики работы, отпусков и отгулов;
-2)	Учет техники, оборудования, СИЗ, ТО;
-3)	Учет боевой подготовки и инструктажей;
-4)	Учет вызовов на пожары, аварии и др. ЧС;
-5)	Созадние документов;
-6)    Создание отчетов.</value>
-  </detailedInformation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>

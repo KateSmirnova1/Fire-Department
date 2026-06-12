@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыДоступа.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="67306eb7-2e07-4a6a-9693-98297e7d0a8f">
     <producedTypes>
       <objectType typeId="79642fb5-2771-4615-aeed-9faada91f31c" valueTypeId="cd8968ce-648f-43de-a746-4ab89cb8cb43"/>
@@ -56,4 +57,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="13f683d4-acec-4da4-83ab-11ac84599130">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

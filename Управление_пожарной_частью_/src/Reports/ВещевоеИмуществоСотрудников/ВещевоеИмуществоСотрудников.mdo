@@ -10,7 +10,17 @@
     <value>Вещевое имущество сотрудников</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВещевоеИмуществоСотрудников.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ВещевоеИмуществоСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="4072c7c1-7785-4e0f-a499-6a36327ad767">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="57d21f72-b74e-4915-bf81-0cb1aeebf7d7">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

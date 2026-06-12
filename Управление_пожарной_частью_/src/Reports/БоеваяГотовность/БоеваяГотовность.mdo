@@ -10,7 +10,17 @@
     <value>Боевая готовность</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.БоеваяГотовность.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.БоеваяГотовность.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="e7e2d050-b62b-474b-bea7-f7679dd8ed86">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="3be8a94c-92fe-4e66-b235-8f17b3626d3c">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

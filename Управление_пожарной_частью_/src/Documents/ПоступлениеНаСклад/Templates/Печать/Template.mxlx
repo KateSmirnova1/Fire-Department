@@ -154,7 +154,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поступление на склад</v8:content>
+							<v8:content>ПОСТУПЛЕНИЕ ВЕЩЕВОГО ИМУЩЕСТВА НА СКЛАД</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -163,13 +163,13 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
-		<indexTo>3</indexTo>
+		<indexTo>4</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>4</index>
+		<index>5</index>
 		<row>
 			<columnsID>374e4216-f035-467f-be67-658f10807b95</columnsID>
 			<formatIndex>16</formatIndex>
@@ -212,7 +212,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>5</index>
+		<index>6</index>
 		<row>
 			<columnsID>374e4216-f035-467f-be67-658f10807b95</columnsID>
 			<formatIndex>16</formatIndex>
@@ -255,7 +255,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>6</index>
+		<index>7</index>
 		<row>
 			<columnsID>374e4216-f035-467f-be67-658f10807b95</columnsID>
 			<formatIndex>16</formatIndex>
@@ -280,14 +280,14 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>7</index>
-		<indexTo>9</indexTo>
+		<index>8</index>
+		<indexTo>10</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>11</index>
 		<row>
 			<columnsID>52858fd3-6790-4630-9aa7-97b0dcc216f9</columnsID>
 			<formatIndex>21</formatIndex>
@@ -343,7 +343,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>12</index>
 		<row>
 			<columnsID>52858fd3-6790-4630-9aa7-97b0dcc216f9</columnsID>
 			<formatIndex>21</formatIndex>
@@ -375,14 +375,14 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
-		<indexTo>13</indexTo>
+		<index>13</index>
+		<indexTo>14</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>15</index>
 		<row>
 			<columnsID>dc9fe818-eb7c-4167-a522-b87c0a3126a0</columnsID>
 			<formatIndex>21</formatIndex>
@@ -419,8 +419,8 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
-		<indexTo>16</indexTo>
+		<index>16</index>
+		<indexTo>17</indexTo>
 		<row>
 			<formatIndex>21</formatIndex>
 			<empty>true</empty>
@@ -436,9 +436,9 @@
 				<v8:content>:</v8:content>
 			</v8:item>
 		</text>
-		<beginRow>14</beginRow>
+		<beginRow>15</beginRow>
 		<beginRowOffset>2</beginRowOffset>
-		<endRow>14</endRow>
+		<endRow>15</endRow>
 		<endRowOffset>46</endRowOffset>
 		<beginColumn>1</beginColumn>
 		<beginColumnOffset>278</beginColumnOffset>
@@ -458,9 +458,9 @@
 				<v8:content>(подпись)</v8:content>
 			</v8:item>
 		</text>
-		<beginRow>15</beginRow>
+		<beginRow>16</beginRow>
 		<beginRowOffset>6</beginRowOffset>
-		<endRow>16</endRow>
+		<endRow>17</endRow>
 		<endRowOffset>6</endRowOffset>
 		<beginColumn>4</beginColumn>
 		<beginColumnOffset>121</beginColumnOffset>
@@ -472,13 +472,8 @@
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>30</defaultFormatIndex>
-	<height>18</height>
-	<vgRows>18</vgRows>
-	<merge>
-		<r>4</r>
-		<c>2</c>
-		<w>1</w>
-	</merge>
+	<height>19</height>
+	<vgRows>19</vgRows>
 	<merge>
 		<r>5</r>
 		<c>2</c>
@@ -490,7 +485,12 @@
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>14</r>
+		<r>7</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>15</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
@@ -498,8 +498,8 @@
 		<name>ВещевоеИмущество</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>11</beginRow>
-			<endRow>11</endRow>
+			<beginRow>12</beginRow>
+			<endRow>12</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>52858fd3-6790-4630-9aa7-97b0dcc216f9</columnsID>
@@ -509,8 +509,8 @@
 		<name>ВещевоеИмуществоШапка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>9</beginRow>
-			<endRow>10</endRow>
+			<beginRow>10</beginRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -530,8 +530,8 @@
 		<name>Подвал</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>13</beginRow>
-			<endRow>14</endRow>
+			<beginRow>14</beginRow>
+			<endRow>15</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -540,8 +540,8 @@
 		<name>Подпись</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>15</beginRow>
-			<endRow>16</endRow>
+			<beginRow>16</beginRow>
+			<endRow>17</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -550,8 +550,8 @@
 		<name>Шапка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>3</beginRow>
-			<endRow>6</endRow>
+			<beginRow>4</beginRow>
+			<endRow>7</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
