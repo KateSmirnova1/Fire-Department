@@ -144,13 +144,16 @@
         <for>
           <role>Role.ОтчетТоварыНаСкладахПросмотрИИспользование</role>
         </for>
+        <for>
+          <value>true</value>
+          <role>Role.СистемныйАдминистратор</role>
+        </for>
       </visibility>
     </items>
     <items>
       <form>Report.БоеваяГотовность.Form.ФормаОтчета</form>
       <height>10</height>
       <visibility>
-        <common>true</common>
         <for>
           <role>Role.СистемныйАдминистратор</role>
         </for>
@@ -249,6 +252,62 @@
         </for>
         <for>
           <role>Role.ОтчетТоварыНаСкладахПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВозрастныеГруппыЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ГруппаСотрудниковЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ЗагрузкаБоевойПодготовкиПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.МестоПроведенияТренировкиЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.НормативЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОрганизацииЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетБоеваяГотовностьПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетБоеваяСтатистикаСотрудниковПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПланСдачиНормативовЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПодсистемаБоеваяПодготовкаПросмотр</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПользователиЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.СдачаНормативовЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ТипТренировкиЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ФизическиеЛицаЧтение</role>
         </for>
       </visibility>
     </items>
@@ -359,54 +418,83 @@
         <for>
           <role>Role.ОтчетБоеваяСтатистикаСотрудниковПросмотрИИспользование</role>
         </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВыдачаВещевогоИмуществаЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ЗагрузкаВещевогоИмуществаПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОрганизацииЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетВещевоеИмуществоСотрудниковПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетСписаниеИмуществаПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетТоварыНаСкладахПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПодсистемаВещевоеОбеспечениеПросмотр</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПользователиЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПоступлениеНаСкладЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.СкладыЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.СписаниеСоСкладаЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.СписаниеВещевогоИмуществаЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ФизическиеЛицаЧтение</role>
+        </for>
       </visibility>
     </items>
     <items>
       <form>Document.ПланСдачиНормативов.Form.ФормаСписка</form>
       <height>10</height>
       <visibility>
-        <common>true</common>
         <for>
-          <role>Role.СистемныйАдминистратор</role>
-        </for>
-        <for>
-          <role>Role.ОрганизацииЧтениеИЗапись</role>
-        </for>
-        <for>
-          <role>Role.ФизическиеЛицаЧтениеИЗапись</role>
-        </for>
-        <for>
-          <role>Role.ГруппаСотрудниковЧтениеИЗапись</role>
+          <value>true</value>
+          <role>Role.ВозрастныеГруппыЧтение</role>
         </for>
         <for>
           <role>Role.ВозрастныеГруппыЧтениеИЗапись</role>
         </for>
         <for>
-          <role>Role.НормативЧтениеИЗапись</role>
+          <role>Role.ВыдачаВещевогоИмуществаЧтение</role>
         </for>
         <for>
-          <role>Role.ТипТренировкиЧтениеИЗапись</role>
+          <role>Role.ВыдачаВещевогоИмуществаЧтениеИЗапись</role>
         </for>
         <for>
-          <role>Role.МестоПроведенияТренировкиЧтениеИЗапись</role>
+          <value>true</value>
+          <role>Role.ГруппаСотрудниковЧтение</role>
         </for>
         <for>
-          <role>Role.СкладыЧтение</role>
-        </for>
-        <for>
-          <role>Role.СкладыЧтениеИЗапись</role>
-        </for>
-        <for>
-          <role>Role.НоменклатураЧтение</role>
-        </for>
-        <for>
-          <role>Role.НоменклатураЧтениеИЗапись</role>
-        </for>
-        <for>
-          <role>Role.ПользователиЧтение</role>
-        </for>
-        <for>
-          <role>Role.ПользователиЧтениеИЗапись</role>
+          <role>Role.ГруппаСотрудниковЧтениеИЗапись</role>
         </for>
         <for>
           <role>Role.ГруппыДоступаЧтение</role>
@@ -415,10 +503,83 @@
           <role>Role.ГруппыДоступаЧтениеИЗапись</role>
         </for>
         <for>
+          <role>Role.ЗагрузкаБоевойПодготовкиПросмотрИИспользование</role>
+        </for>
+        <for>
+          <role>Role.ЗагрузкаВещевогоИмуществаПросмотрИИспользование</role>
+        </for>
+        <for>
+          <role>Role.ЗагрузкаЛичногоСоставаПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.МестоПроведенияТренировкиЧтение</role>
+        </for>
+        <for>
+          <role>Role.МестоПроведенияТренировкиЧтениеИЗапись</role>
+        </for>
+        <for>
+          <role>Role.НоменклатураЧтение</role>
+        </for>
+        <for>
+          <role>Role.НоменклатураЧтениеИЗапись</role>
+        </for>
+        <for>
+          <role>Role.НормативЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.НормативЧтение</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОрганизацииЧтение</role>
+        </for>
+        <for>
+          <role>Role.ОрганизацииЧтениеИЗапись</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетБоеваяГотовностьПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ОтчетБоеваяСтатистикаСотрудниковПросмотрИИспользование</role>
+        </for>
+        <for>
+          <role>Role.ОтчетВещевоеИмуществоСотрудниковПросмотрИИспользование</role>
+        </for>
+        <for>
+          <role>Role.ОтчетСписаниеИмуществаПросмотрИИспользование</role>
+        </for>
+        <for>
+          <role>Role.ОтчетТоварыНаСкладахПросмотрИИспользование</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПланСдачиНормативовЧтение</role>
+        </for>
+        <for>
           <role>Role.ПланСдачиНормативовЧтениеИЗапись</role>
         </for>
         <for>
-          <role>Role.СдачаНормативовЧтение</role>
+          <value>true</value>
+          <role>Role.ПодсистемаБоеваяПодготовкаПросмотр</role>
+        </for>
+        <for>
+          <role>Role.ПодсистемаВещевоеОбеспечениеПросмотр</role>
+        </for>
+        <for>
+          <role>Role.ПодсистемаЛичныйСоставПросмотр</role>
+        </for>
+        <for>
+          <role>Role.ПодсистемаПользователиПросмотр</role>
+        </for>
+        <for>
+          <role>Role.ПользователиЧтение</role>
+        </for>
+        <for>
+          <role>Role.ПользователиЧтениеИЗапись</role>
         </for>
         <for>
           <role>Role.ПоступлениеНаСкладЧтение</role>
@@ -427,10 +588,20 @@
           <role>Role.ПоступлениеНаСкладЧтениеИЗапись</role>
         </for>
         <for>
-          <role>Role.ВыдачаВещевогоИмуществаЧтение</role>
+          <role>Role.СдачаНормативовЧтение</role>
         </for>
         <for>
-          <role>Role.ВыдачаВещевогоИмуществаЧтениеИЗапись</role>
+          <value>true</value>
+          <role>Role.СдачаНормативовЧтениеИЗапись</role>
+        </for>
+        <for>
+          <role>Role.СистемныйАдминистратор</role>
+        </for>
+        <for>
+          <role>Role.СкладыЧтение</role>
+        </for>
+        <for>
+          <role>Role.СкладыЧтениеИЗапись</role>
         </for>
         <for>
           <role>Role.СписаниеВещевогоИмуществаЧтение</role>
@@ -445,31 +616,17 @@
           <role>Role.СписаниеСоСкладаЧтениеИЗапись</role>
         </for>
         <for>
-          <role>Role.ПодсистемаВещевоеОбеспечениеПросмотр</role>
+          <role>Role.ТипТренировкиЧтение</role>
         </for>
         <for>
-          <role>Role.ПодсистемаЛичныйСоставПросмотр</role>
+          <role>Role.ТипТренировкиЧтениеИЗапись</role>
         </for>
         <for>
-          <role>Role.ПодсистемаПользователиПросмотр</role>
+          <value>true</value>
+          <role>Role.ФизическиеЛицаЧтение</role>
         </for>
         <for>
-          <role>Role.ЗагрузкаВещевогоИмуществаПросмотрИИспользование</role>
-        </for>
-        <for>
-          <role>Role.ЗагрузкаБоевойПодготовкиПросмотрИИспользование</role>
-        </for>
-        <for>
-          <role>Role.ЗагрузкаЛичногоСоставаПросмотрИИспользование</role>
-        </for>
-        <for>
-          <role>Role.ОтчетСписаниеИмуществаПросмотрИИспользование</role>
-        </for>
-        <for>
-          <role>Role.ОтчетВещевоеИмуществоСотрудниковПросмотрИИспользование</role>
-        </for>
-        <for>
-          <role>Role.ОтчетТоварыНаСкладахПросмотрИИспользование</role>
+          <role>Role.ФизическиеЛицаЧтениеИЗапись</role>
         </for>
       </visibility>
     </items>

@@ -94,7 +94,7 @@
       <value>Начальник караула</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -109,7 +109,7 @@
       <value>Инструктор</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
