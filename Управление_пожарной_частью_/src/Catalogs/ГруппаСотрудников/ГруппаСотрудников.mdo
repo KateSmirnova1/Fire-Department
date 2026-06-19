@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппаСотрудников.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="d218aa9d-3803-4e73-a8a6-c81100d18c9a">
     <name>НачальникКараула</name>
     <synonym>
@@ -100,4 +101,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="823b20fd-2872-4b19-b90f-5b9e630492ec">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -238,8 +238,12 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
-  <templates uuid="a18c564b-7965-415f-aae6-3e9ac3cd4194">
+  <templates uuid="c46266da-7854-4372-8cfb-597eb3ac191f">
     <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
   </templates>
   <commands uuid="628ec3e7-5afe-49a5-a8ed-8f2a7633baec">
     <name>Печать</name>

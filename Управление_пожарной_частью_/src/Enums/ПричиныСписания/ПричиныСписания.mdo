@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a8b52d2-d468-4c18-ab02-8b1ba4e3ac98">
+  <producedTypes>
+    <refType typeId="859f2bc9-df18-4051-a08a-a21f6f001e5d" valueTypeId="85afed79-79de-4c55-b7aa-cdb2754a8303"/>
+    <listType typeId="4a43a3b3-5ea5-4957-8592-3a1743baa0e5" valueTypeId="2818fcba-3816-45ba-bb31-58fb34e923b8"/>
+    <managerType typeId="d7f5db63-453c-4db4-b93c-7d63f24e575c" valueTypeId="c99c3ccb-e861-4799-bdb1-32735f1c2513"/>
+  </producedTypes>
+  <name>ПричиныСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины списания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16268251-0d87-4b0d-862d-d057060e468a">
+    <name>ЗаконченСрокЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закончен срок эксплуатации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea956b3b-76b2-4abe-9641-1b726ae8f6b1">
+    <name>ФизическийИзнос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физический износ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ed2fc12-df13-49d6-83e9-1d6bcb5dd9af">
+    <name>Утрата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утрата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b783494-6de6-47af-894b-f9be3f31aa8f">
+    <name>МоральноеУстаревание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моральное устаревание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

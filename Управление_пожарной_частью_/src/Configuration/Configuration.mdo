@@ -29,21 +29,12 @@
   </usedMobileApplicationFunctionalities>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
-  <defaultStyle>Style.Стиль1</defaultStyle>
+  <defaultStyle>Style.ПСЧ13</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
     <value>Автоматизация процессов в пожарной части.</value>
   </briefInformation>
-  <detailedInformation>
-    <key>ru</key>
-    <value>Решает задачи: 1)	Учет личного состава, графики работы, отпусков и отгулов;
-2)	Учет техники, оборудования, СИЗ, ТО;
-3)	Учет боевой подготовки и инструктажей;
-4)	Учет вызовов на пожары, аварии и др. ЧС;
-5)	Созадние документов;
-6)    Создание отчетов.</value>
-  </detailedInformation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -61,8 +52,8 @@
   <subsystems>Subsystem.Боевая_подготовка</subsystems>
   <subsystems>Subsystem.Личный_состав</subsystems>
   <subsystems>Subsystem.ВещевоеОбеспечение</subsystems>
-  <subsystems>Subsystem.ДобавлениеПользователей</subsystems>
-  <styles>Style.Стиль1</styles>
+  <subsystems>Subsystem.Пользователи</subsystems>
+  <styles>Style.ПСЧ13</styles>
   <commonPictures>CommonPicture.Боевая_подготовка</commonPictures>
   <commonPictures>CommonPicture.Вызовы</commonPictures>
   <commonPictures>CommonPicture.Пожарный</commonPictures>
@@ -140,6 +131,7 @@
   <enums>Enum.РазмерОдежды</enums>
   <enums>Enum.Роли</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.ПричиныСписания</enums>
   <reports>Report.БоеваяГотовность</reports>
   <reports>Report.СписаниеИмущества</reports>
   <reports>Report.ВещевоеИмуществоСотрудников</reports>

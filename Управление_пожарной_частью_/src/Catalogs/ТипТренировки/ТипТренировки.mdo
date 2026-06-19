@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипТренировки.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="33584d97-db98-4d5c-b972-9199bf983392">
     <producedTypes>
       <objectType typeId="a8098785-6bc5-4b93-a873-fe27284dd9ee" valueTypeId="7be112a5-6cf2-4a31-a45c-cf44dd8f4a7a"/>
@@ -56,4 +57,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="b81acfab-3efd-4161-a708-3b48032e849d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

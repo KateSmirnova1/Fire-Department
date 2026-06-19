@@ -240,8 +240,7 @@
         <value>Причина</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>EnumRef.ПричиныСписания</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -250,8 +249,12 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
-  <templates uuid="f29f12f6-03c6-446b-9d15-e43fc5a3c7cf">
+  <templates uuid="dc0af21c-ad5b-49c3-a474-b253a8203e4e">
     <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
   </templates>
   <commands uuid="a537cab5-ed12-4ce3-8a8b-84b7b1742127">
     <name>Печать</name>
