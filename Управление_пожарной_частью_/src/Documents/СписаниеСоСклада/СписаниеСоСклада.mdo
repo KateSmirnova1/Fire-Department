@@ -240,8 +240,7 @@
         <value>Причина</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>EnumRef.ПричиныСписания</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

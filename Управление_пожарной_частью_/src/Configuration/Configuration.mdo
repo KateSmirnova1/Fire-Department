@@ -29,7 +29,7 @@
   </usedMobileApplicationFunctionalities>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
-  <defaultStyle>Style.Стиль1</defaultStyle>
+  <defaultStyle>Style.ПСЧ13</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -52,8 +52,8 @@
   <subsystems>Subsystem.Боевая_подготовка</subsystems>
   <subsystems>Subsystem.Личный_состав</subsystems>
   <subsystems>Subsystem.ВещевоеОбеспечение</subsystems>
-  <subsystems>Subsystem.ДобавлениеПользователей</subsystems>
-  <styles>Style.Стиль1</styles>
+  <subsystems>Subsystem.Пользователи</subsystems>
+  <styles>Style.ПСЧ13</styles>
   <commonPictures>CommonPicture.Боевая_подготовка</commonPictures>
   <commonPictures>CommonPicture.Вызовы</commonPictures>
   <commonPictures>CommonPicture.Пожарный</commonPictures>
@@ -131,6 +131,7 @@
   <enums>Enum.РазмерОдежды</enums>
   <enums>Enum.Роли</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.ПричиныСписания</enums>
   <reports>Report.БоеваяГотовность</reports>
   <reports>Report.СписаниеИмущества</reports>
   <reports>Report.ВещевоеИмуществоСотрудников</reports>
